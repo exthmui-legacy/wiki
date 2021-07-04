@@ -66,7 +66,7 @@ description: "The LineageOS Wiki"
 # the description is used in the feed.xml file
 
 # needed for sitemap.xml file only
-url: https://baolong24.github.io/lineage_wiki/
+url: https://exthmui.github.io/wiki/
 
 plugins:
   - jekyll-redirect-from
