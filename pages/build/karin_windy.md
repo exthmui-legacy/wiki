@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for karin_windy
+title: 编译 LineageOS 给 karin_windy
 folder: build
 permalink: /devices/karin_windy/build
 device: karin_windy

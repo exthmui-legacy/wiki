@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about lavender
+title: 关于 lavender
 folder: info
 layout: deviceinfo
 permalink: /devices/lavender/

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about himawl
+title: 关于 himawl
 folder: info
 layout: deviceinfo
 permalink: /devices/himawl/

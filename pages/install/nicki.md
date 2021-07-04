@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on nicki
+title: 安装 LineageOS 到 nicki
 folder: install
 permalink: /devices/nicki/install
 device: nicki

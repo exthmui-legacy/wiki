@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for dumpling
+title: 编译 LineageOS 给 dumpling
 folder: build
 permalink: /devices/dumpling/build
 device: dumpling

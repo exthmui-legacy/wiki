@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about d2tmo
+title: 关于 d2tmo
 folder: info
 layout: deviceinfo
 permalink: /devices/d2tmo/

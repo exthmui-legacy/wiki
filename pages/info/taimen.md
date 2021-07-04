@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about taimen
+title: 关于 taimen
 folder: info
 layout: deviceinfo
 permalink: /devices/taimen/

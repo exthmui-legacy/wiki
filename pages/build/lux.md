@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for lux
+title: 编译 LineageOS 给 lux
 folder: build
 permalink: /devices/lux/build
 device: lux

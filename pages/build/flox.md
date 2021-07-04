@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for flox
+title: 编译 LineageOS 给 flox
 folder: build
 permalink: /devices/flox/build
 device: flox

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about YTX703F
+title: 关于 YTX703F
 folder: info
 layout: deviceinfo
 permalink: /devices/YTX703F/

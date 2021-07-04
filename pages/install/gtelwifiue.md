@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on gtelwifiue
+title: 安装 LineageOS 到 gtelwifiue
 folder: install
 permalink: /devices/gtelwifiue/install
 device: gtelwifiue

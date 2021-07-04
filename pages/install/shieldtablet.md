@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on shieldtablet
+title: 安装 LineageOS 到 shieldtablet
 folder: install
 permalink: /devices/shieldtablet/install
 device: shieldtablet

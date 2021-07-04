@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on zerofltexx
+title: 安装 LineageOS 到 zerofltexx
 folder: install
 permalink: /devices/zerofltexx/install
 device: zerofltexx

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about chagallwifi
+title: 关于 chagallwifi
 folder: info
 layout: deviceinfo
 permalink: /devices/chagallwifi/

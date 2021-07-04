@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about jason
+title: 关于 jason
 folder: info
 layout: deviceinfo
 permalink: /devices/jason/

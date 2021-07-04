@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about oneplus2
+title: 关于 oneplus2
 folder: info
 layout: deviceinfo
 permalink: /devices/oneplus2/

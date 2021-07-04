@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for lettuce
+title: 编译 LineageOS 给 lettuce
 folder: build
 permalink: /devices/lettuce/build
 device: lettuce

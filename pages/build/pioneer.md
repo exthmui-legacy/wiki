@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for pioneer
+title: 编译 LineageOS 给 pioneer
 folder: build
 permalink: /devices/pioneer/build
 device: pioneer

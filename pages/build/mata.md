@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for mata
+title: 编译 LineageOS 给 mata
 folder: build
 permalink: /devices/mata/build
 device: mata

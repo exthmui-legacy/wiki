@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about r7plus
+title: 关于 r7plus
 folder: info
 layout: deviceinfo
 permalink: /devices/r7plus/

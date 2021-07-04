@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for hltekor
+title: 编译 LineageOS 给 hltekor
 folder: build
 permalink: /devices/hltekor/build
 device: hltekor

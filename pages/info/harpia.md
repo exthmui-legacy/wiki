@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about harpia
+title: 关于 harpia
 folder: info
 layout: deviceinfo
 permalink: /devices/harpia/

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on addison
+title: 安装 LineageOS 到 addison
 folder: install
 permalink: /devices/addison/install
 device: addison

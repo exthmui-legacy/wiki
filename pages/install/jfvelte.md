@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on jfvelte
+title: 安装 LineageOS 到 jfvelte
 folder: install
 permalink: /devices/jfvelte/install
 device: jfvelte

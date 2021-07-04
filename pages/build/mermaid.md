@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for mermaid
+title: 编译 LineageOS 给 mermaid
 folder: build
 permalink: /devices/mermaid/build
 device: mermaid

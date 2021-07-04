@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for cheryl
+title: 编译 LineageOS 给 cheryl
 folder: build
 permalink: /devices/cheryl/build
 device: cheryl

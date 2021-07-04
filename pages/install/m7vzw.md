@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on m7vzw
+title: 安装 LineageOS 到 m7vzw
 folder: install
 permalink: /devices/m7vzw/install
 device: m7vzw

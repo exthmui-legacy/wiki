@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on falcon
+title: 安装 LineageOS 到 falcon
 folder: install
 permalink: /devices/falcon/install
 device: falcon

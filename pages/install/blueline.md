@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on blueline
+title: 安装 LineageOS 到 blueline
 folder: install
 permalink: /devices/blueline/install
 device: blueline

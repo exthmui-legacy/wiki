@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about bonito
+title: 关于 bonito
 folder: info
 layout: deviceinfo
 permalink: /devices/bonito/

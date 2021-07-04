@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about sailfish
+title: 关于 sailfish
 folder: info
 layout: deviceinfo
 permalink: /devices/sailfish/

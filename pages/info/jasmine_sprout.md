@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about jasmine_sprout
+title: 关于 jasmine_sprout
 folder: info
 layout: deviceinfo
 permalink: /devices/jasmine_sprout/

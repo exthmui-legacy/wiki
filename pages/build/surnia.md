@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for surnia
+title: 编译 LineageOS 给 surnia
 folder: build
 permalink: /devices/surnia/build
 device: surnia

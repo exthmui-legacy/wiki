@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for bardockpro
+title: 编译 LineageOS 给 bardockpro
 folder: build
 permalink: /devices/bardockpro/build
 device: bardockpro

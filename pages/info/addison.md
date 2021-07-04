@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about addison
+title: 关于 addison
 folder: info
 layout: deviceinfo
 permalink: /devices/addison/

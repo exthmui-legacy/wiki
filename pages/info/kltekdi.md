@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about kltekdi
+title: 关于 kltekdi
 folder: info
 layout: deviceinfo
 permalink: /devices/kltekdi/

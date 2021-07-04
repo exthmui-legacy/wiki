@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on serranoltexx
+title: 安装 LineageOS 到 serranoltexx
 folder: install
 permalink: /devices/serranoltexx/install
 device: serranoltexx

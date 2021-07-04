@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on jalebi
+title: 安装 LineageOS 到 jalebi
 folder: install
 permalink: /devices/jalebi/install
 device: jalebi

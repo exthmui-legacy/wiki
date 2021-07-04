@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for bonito
+title: 编译 LineageOS 给 bonito
 folder: build
 permalink: /devices/bonito/build
 device: bonito

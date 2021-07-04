@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about titan
+title: 关于 titan
 folder: info
 layout: deviceinfo
 permalink: /devices/titan/

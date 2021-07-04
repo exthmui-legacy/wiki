@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about hammerhead
+title: 关于 hammerhead
 folder: info
 layout: deviceinfo
 permalink: /devices/hammerhead/

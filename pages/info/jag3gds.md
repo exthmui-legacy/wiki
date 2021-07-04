@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about jag3gds
+title: 关于 jag3gds
 folder: info
 layout: deviceinfo
 permalink: /devices/jag3gds/

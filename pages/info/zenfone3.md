@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about zenfone3
+title: 关于 zenfone3
 folder: info
 layout: deviceinfo
 permalink: /devices/zenfone3/

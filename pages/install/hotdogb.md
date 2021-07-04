@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on hotdogb
+title: 安装 LineageOS 到 hotdogb
 folder: install
 permalink: /devices/hotdogb/install
 device: hotdogb

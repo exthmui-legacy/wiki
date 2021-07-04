@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for roth
+title: 编译 LineageOS 给 roth
 folder: build
 permalink: /devices/roth/build
 device: roth

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about kipper
+title: 关于 kipper
 folder: info
 layout: deviceinfo
 permalink: /devices/kipper/

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about lentislte
+title: 关于 lentislte
 folder: info
 layout: deviceinfo
 permalink: /devices/lentislte/

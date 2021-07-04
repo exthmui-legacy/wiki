@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for pollux
+title: 编译 LineageOS 给 pollux
 folder: build
 permalink: /devices/pollux/build
 device: pollux

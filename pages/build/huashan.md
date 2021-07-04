@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for huashan
+title: 编译 LineageOS 给 huashan
 folder: build
 permalink: /devices/huashan/build
 device: huashan

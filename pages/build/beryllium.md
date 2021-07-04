@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for beryllium
+title: 编译 LineageOS 给 beryllium
 folder: build
 permalink: /devices/beryllium/build
 device: beryllium

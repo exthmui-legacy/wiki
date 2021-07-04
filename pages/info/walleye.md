@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about walleye
+title: 关于 walleye
 folder: info
 layout: deviceinfo
 permalink: /devices/walleye/

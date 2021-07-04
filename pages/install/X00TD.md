@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on X00TD
+title: 安装 LineageOS 到 X00TD
 folder: install
 permalink: /devices/X00TD/install
 device: X00TD

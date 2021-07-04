@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for angler
+title: 编译 LineageOS 给 angler
 folder: build
 permalink: /devices/angler/build
 device: angler

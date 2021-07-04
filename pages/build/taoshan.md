@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for taoshan
+title: 编译 LineageOS 给 taoshan
 folder: build
 permalink: /devices/taoshan/build
 device: taoshan

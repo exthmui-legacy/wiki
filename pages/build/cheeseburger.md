@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for cheeseburger
+title: 编译 LineageOS 给 cheeseburger
 folder: build
 permalink: /devices/cheeseburger/build
 device: cheeseburger

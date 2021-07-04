@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about cedric
+title: 关于 cedric
 folder: info
 layout: deviceinfo
 permalink: /devices/cedric/

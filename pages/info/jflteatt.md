@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about jflteatt
+title: 关于 jflteatt
 folder: info
 layout: deviceinfo
 permalink: /devices/jflteatt/

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about umts_spyder
+title: 关于 umts_spyder
 folder: info
 layout: deviceinfo
 permalink: /devices/umts_spyder/

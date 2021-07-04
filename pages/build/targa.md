@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for targa
+title: 编译 LineageOS 给 targa
 folder: build
 permalink: /devices/targa/build
 device: targa

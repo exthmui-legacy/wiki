@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about kltechn
+title: 关于 kltechn
 folder: info
 layout: deviceinfo
 permalink: /devices/kltechn/

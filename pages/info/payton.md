@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about payton
+title: 关于 payton
 folder: info
 layout: deviceinfo
 permalink: /devices/payton/

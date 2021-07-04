@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about mido
+title: 关于 mido
 folder: info
 layout: deviceinfo
 permalink: /devices/mido/

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for castor
+title: 编译 LineageOS 给 castor
 folder: build
 permalink: /devices/castor/build
 device: castor

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about kuntao
+title: 关于 kuntao
 folder: info
 layout: deviceinfo
 permalink: /devices/kuntao/

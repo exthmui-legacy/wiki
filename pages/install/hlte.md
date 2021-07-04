@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on hlte
+title: 安装 LineageOS 到 hlte
 folder: install
 permalink: /devices/hlte/install
 device: hlte

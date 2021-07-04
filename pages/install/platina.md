@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on platina
+title: 安装 LineageOS 到 platina
 folder: install
 permalink: /devices/platina/install
 device: platina

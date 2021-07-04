@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for onclite
+title: 编译 LineageOS 给 onclite
 folder: build
 permalink: /devices/onclite/build
 device: onclite

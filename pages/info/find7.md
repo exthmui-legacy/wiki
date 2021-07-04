@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about find7
+title: 关于 find7
 folder: info
 layout: deviceinfo
 redirect_from:

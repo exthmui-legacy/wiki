@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for wayne
+title: 编译 LineageOS 给 wayne
 folder: build
 permalink: /devices/wayne/build
 device: wayne

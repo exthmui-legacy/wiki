@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on ocean
+title: 安装 LineageOS 到 ocean
 folder: install
 permalink: /devices/ocean/install
 device: ocean

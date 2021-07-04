@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for evert
+title: 编译 LineageOS 给 evert
 folder: build
 permalink: /devices/evert/build
 device: evert

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on kltedv
+title: 安装 LineageOS 到 kltedv
 folder: install
 permalink: /devices/kltedv/install
 device: kltedv

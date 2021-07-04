@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for herolte
+title: 编译 LineageOS 给 herolte
 folder: build
 permalink: /devices/herolte/build
 device: herolte

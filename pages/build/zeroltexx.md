@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for zeroltexx
+title: 编译 LineageOS 给 zeroltexx
 folder: build
 permalink: /devices/zeroltexx/build
 device: zeroltexx

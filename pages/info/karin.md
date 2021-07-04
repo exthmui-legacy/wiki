@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about karin
+title: 关于 karin
 folder: info
 layout: deviceinfo
 permalink: /devices/karin/

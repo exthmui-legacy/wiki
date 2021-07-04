@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about hltekor
+title: 关于 hltekor
 folder: info
 layout: deviceinfo
 permalink: /devices/hltekor/

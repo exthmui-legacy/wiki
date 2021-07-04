@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for channel
+title: 编译 LineageOS 给 channel
 folder: build
 permalink: /devices/channel/build
 device: channel

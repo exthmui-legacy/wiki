@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for manta
+title: 编译 LineageOS 给 manta
 folder: build
 permalink: /devices/manta/build
 device: manta

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for capricorn
+title: 编译 LineageOS 给 capricorn
 folder: build
 permalink: /devices/capricorn/build
 device: capricorn

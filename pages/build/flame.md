@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for flame
+title: 编译 LineageOS 给 flame
 folder: build
 permalink: /devices/flame/build
 device: flame

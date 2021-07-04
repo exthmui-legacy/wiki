@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about che10
+title: 关于 che10
 folder: info
 layout: deviceinfo
 permalink: /devices/che10/

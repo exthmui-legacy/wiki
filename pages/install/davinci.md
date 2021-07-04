@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on davinci
+title: 安装 LineageOS 到 davinci
 folder: install
 permalink: /devices/davinci/install
 device: davinci

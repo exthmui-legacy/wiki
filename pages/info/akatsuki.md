@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about akatsuki
+title: 关于 akatsuki
 folder: info
 layout: deviceinfo
 permalink: /devices/akatsuki/

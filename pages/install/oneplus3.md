@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on oneplus3
+title: 安装 LineageOS 到 oneplus3
 folder: install
 permalink: /devices/oneplus3/install
 device: oneplus3

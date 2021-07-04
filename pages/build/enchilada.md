@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for enchilada
+title: 编译 LineageOS 给 enchilada
 folder: build
 permalink: /devices/enchilada/build
 device: enchilada

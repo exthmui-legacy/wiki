@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about bardock
+title: 关于 bardock
 folder: info
 layout: deviceinfo
 permalink: /devices/bardock/

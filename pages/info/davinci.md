@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about davinci
+title: 关于 davinci
 folder: info
 layout: deviceinfo
 permalink: /devices/davinci/

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on scorpio
+title: 安装 LineageOS 到 scorpio
 folder: install
 permalink: /devices/scorpio/install
 device: scorpio

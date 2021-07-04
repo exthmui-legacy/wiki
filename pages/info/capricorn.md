@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about capricorn
+title: 关于 capricorn
 folder: info
 layout: deviceinfo
 permalink: /devices/capricorn/

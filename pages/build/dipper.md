@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for dipper
+title: 编译 LineageOS 给 dipper
 folder: build
 permalink: /devices/dipper/build
 device: dipper

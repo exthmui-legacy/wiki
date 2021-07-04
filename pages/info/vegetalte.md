@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about vegetalte
+title: 关于 vegetalte
 folder: info
 layout: deviceinfo
 permalink: /devices/vegetalte/

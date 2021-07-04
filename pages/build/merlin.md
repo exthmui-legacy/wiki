@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for merlin
+title: 编译 LineageOS 给 merlin
 folder: build
 permalink: /devices/merlin/build
 device: merlin

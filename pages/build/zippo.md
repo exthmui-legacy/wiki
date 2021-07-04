@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for zippo
+title: 编译 LineageOS 给 zippo
 folder: build
 permalink: /devices/zippo/build
 device: zippo

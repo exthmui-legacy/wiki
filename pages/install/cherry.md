@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on cherry
+title: 安装 LineageOS 到 cherry
 folder: install
 permalink: /devices/cherry/install
 device: cherry

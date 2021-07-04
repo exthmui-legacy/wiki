@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for espresso3g
+title: 编译 LineageOS 给 espresso3g
 folder: build
 permalink: /devices/espresso3g/build
 device: espresso3g

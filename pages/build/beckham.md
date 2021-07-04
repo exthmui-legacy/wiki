@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for beckham
+title: 编译 LineageOS 给 beckham
 folder: build
 permalink: /devices/beckham/build
 device: beckham

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on fajita
+title: 安装 LineageOS 到 fajita
 folder: install
 permalink: /devices/fajita/install
 device: fajita

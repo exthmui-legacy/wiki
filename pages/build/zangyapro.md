@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for zangyapro
+title: 编译 LineageOS 给 zangyapro
 folder: build
 permalink: /devices/zangyapro/build
 device: zangyapro

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about a7y17lte
+title: 关于 a7y17lte
 folder: info
 layout: deviceinfo
 permalink: /devices/a7y17lte/

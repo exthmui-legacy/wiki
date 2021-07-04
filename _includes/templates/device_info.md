@@ -8,21 +8,21 @@
 {% endif %}
 
 {% if device.maintainers != empty %}
-## Get LineageOS for the {{ device.vendor }} {{ device.name }}
-[Get the builds here](https://download.lineageos.org/{{ device.codename }})
+## 获取适用于 {{ device.vendor }} {{ device.name }} 的 LineageOS
+[在这里获取](https://download.lineageos.org/{{ device.codename }})
 {% endif %}
 
-## Guides
+## 指南
 
-- [Installation]({{ "devices/" | append: device.codename | append: "/install" | relative_url }})
-- [Build for yourself]({{ "devices/" | append: device.codename | append: "/build" | relative_url }})
+- [安装]({{ "devices/" | append: device.codename | append: "/install" | relative_url }})
+- [自己编译]({{ "devices/" | append: device.codename | append: "/build" | relative_url }})
 {%- if device.firmware_update %}
-- [Update to a newer vendor firmware version]({{ "devices/" | append: device.codename | append: "/fw_update" | relative_url }})
+- [更新固件]({{ "devices/" | append: device.codename | append: "/fw_update" | relative_url }})
 {%- endif %}
-- [Update to a newer build of the same LineageOS version]({{ "devices/" | append: device.codename | append: "/update" | relative_url }})
+- [更新 LineageOS(同版本号)]({{ "devices/" | append: device.codename | append: "/update" | relative_url }})
 {% assign versions_count = device.versions|size -%}
 {%- if versions_count > 1 -%}
-- [Upgrade to a higher version of LineageOS (e.g. lineage-15.1 -> lineage-16.0)]({{ "devices/" | append: device.codename | append: "/upgrade" | relative_url }})
+- [更新 LineageOS (例如：lineage-15.1 -> lineage-16.0)]({{ "devices/" | append: device.codename | append: "/upgrade" | relative_url }})
 {%- endif -%}
 
 {% if device.note_show and device.note_show == true %}
@@ -30,7 +30,7 @@
 {% endif %}
 
 {% if device.recovery_boot or device.download_boot %}
-## Special boot modes
+## 特殊启动模式
 
 {% if device.recovery_boot %}
 * **Recovery**: {{ device.recovery_boot }}
@@ -42,7 +42,3 @@
 * **Bootloader/Fastboot/Download**: {{ device.download_boot }}
 {% endif %}
 {% endif %}
-
-## Find help online
-
-You can find assistance with LineageOS on [our subreddit](https://reddit.com/r/LineageOS), or in [#LineageOS on Libera.Chat](https://kiwiirc.com/nextclient/irc.libera.chat#lineageos).

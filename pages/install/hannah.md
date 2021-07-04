@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on hannah
+title: 安装 LineageOS 到 hannah
 folder: install
 permalink: /devices/hannah/install
 device: hannah

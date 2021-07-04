@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about hltetmo
+title: 关于 hltetmo
 folder: info
 layout: deviceinfo
 permalink: /devices/hltetmo/

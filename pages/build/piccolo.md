@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for piccolo
+title: 编译 LineageOS 给 piccolo
 folder: build
 permalink: /devices/piccolo/build
 device: piccolo

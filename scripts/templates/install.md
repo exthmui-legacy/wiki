@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on {codename}
+title: 安装 LineageOS 到 {codename}
 folder: install
 permalink: /devices/{codename}/install
 device: {codename}

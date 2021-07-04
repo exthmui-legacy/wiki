@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for chef
+title: 编译 LineageOS 给 chef
 folder: build
 permalink: /devices/chef/build
 device: chef

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for d2vzw
+title: 编译 LineageOS 给 d2vzw
 folder: build
 permalink: /devices/d2vzw/build
 device: d2vzw

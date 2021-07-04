@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about zerofltexx
+title: 关于 zerofltexx
 folder: info
 layout: deviceinfo
 permalink: /devices/zerofltexx/

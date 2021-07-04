@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for twolip
+title: 编译 LineageOS 给 twolip
 folder: build
 permalink: /devices/twolip/build
 device: twolip

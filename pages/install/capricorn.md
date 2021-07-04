@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on capricorn
+title: 安装 LineageOS 到 capricorn
 folder: install
 permalink: /devices/capricorn/install
 device: capricorn

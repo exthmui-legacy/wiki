@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on guacamole
+title: 安装 LineageOS 到 guacamole
 folder: install
 permalink: /devices/guacamole/install
 device: guacamole

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about marlin
+title: 关于 marlin
 folder: info
 layout: deviceinfo
 permalink: /devices/marlin/

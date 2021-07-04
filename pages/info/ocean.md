@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about ocean
+title: 关于 ocean
 folder: info
 layout: deviceinfo
 permalink: /devices/ocean/

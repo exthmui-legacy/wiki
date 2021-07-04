@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about ks01lte
+title: 关于 ks01lte
 folder: info
 layout: deviceinfo
 permalink: /devices/ks01lte/

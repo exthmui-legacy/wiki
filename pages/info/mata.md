@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about mata
+title: 关于 mata
 folder: info
 layout: deviceinfo
 permalink: /devices/mata/

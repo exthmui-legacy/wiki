@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about kenzo
+title: 关于 kenzo
 folder: info
 layout: deviceinfo
 permalink: /devices/kenzo/

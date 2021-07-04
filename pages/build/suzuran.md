@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for suzuran
+title: 编译 LineageOS 给 suzuran
 folder: build
 permalink: /devices/suzuran/build
 device: suzuran

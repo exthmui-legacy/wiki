@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on zangyapro
+title: 安装 LineageOS 到 zangyapro
 folder: install
 permalink: /devices/zangyapro/install
 device: zangyapro

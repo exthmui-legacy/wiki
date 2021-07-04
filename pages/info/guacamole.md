@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about guacamole
+title: 关于 guacamole
 folder: info
 layout: deviceinfo
 permalink: /devices/guacamole/

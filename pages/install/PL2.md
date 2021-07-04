@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on PL2
+title: 安装 LineageOS 到 PL2
 folder: install
 permalink: /devices/PL2/install
 device: PL2

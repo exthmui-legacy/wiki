@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about twolip
+title: 关于 twolip
 folder: info
 layout: deviceinfo
 permalink: /devices/twolip/

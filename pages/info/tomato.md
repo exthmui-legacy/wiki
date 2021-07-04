@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about tomato
+title: 关于 tomato
 folder: info
 layout: deviceinfo
 permalink: /devices/tomato/

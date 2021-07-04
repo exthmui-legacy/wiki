@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for n1awifi
+title: 编译 LineageOS 给 n1awifi
 folder: build
 permalink: /devices/n1awifi/build
 device: n1awifi

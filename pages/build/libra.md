@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for libra
+title: 编译 LineageOS 给 libra
 folder: build
 permalink: /devices/libra/build
 device: libra

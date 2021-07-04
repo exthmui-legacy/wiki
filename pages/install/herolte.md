@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on herolte
+title: 安装 LineageOS 到 herolte
 folder: install
 permalink: /devices/herolte/install
 device: herolte

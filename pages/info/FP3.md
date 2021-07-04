@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about FP3
+title: 关于 FP3
 folder: info
 layout: deviceinfo
 permalink: /devices/FP3/

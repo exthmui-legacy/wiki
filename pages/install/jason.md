@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on jason
+title: 安装 LineageOS 到 jason
 folder: install
 permalink: /devices/jason/install
 device: jason

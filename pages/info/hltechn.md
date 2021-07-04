@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about hltechn
+title: 关于 hltechn
 folder: info
 layout: deviceinfo
 permalink: /devices/hltechn/

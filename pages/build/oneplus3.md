@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for oneplus3
+title: 编译 LineageOS 给 oneplus3
 folder: build
 permalink: /devices/oneplus3/build
 device: oneplus3

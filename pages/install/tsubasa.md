@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on tsubasa
+title: 安装 LineageOS 到 tsubasa
 folder: install
 permalink: /devices/tsubasa/install
 device: tsubasa

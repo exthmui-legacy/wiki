@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about shieldtablet
+title: 关于 shieldtablet
 folder: info
 layout: deviceinfo
 permalink: /devices/shieldtablet/

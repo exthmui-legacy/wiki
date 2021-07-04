@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about ether
+title: 关于 ether
 folder: info
 layout: deviceinfo
 permalink: /devices/ether/

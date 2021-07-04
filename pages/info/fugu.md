@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about fugu
+title: 关于 fugu
 folder: info
 layout: deviceinfo
 permalink: /devices/fugu/

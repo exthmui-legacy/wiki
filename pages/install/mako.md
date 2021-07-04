@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on mako
+title: 安装 LineageOS 到 mako
 folder: install
 permalink: /devices/mako/install
 device: mako

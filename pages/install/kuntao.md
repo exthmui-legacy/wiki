@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on kuntao
+title: 安装 LineageOS 到 kuntao
 folder: install
 permalink: /devices/kuntao/install
 device: kuntao

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about charlotte
+title: 关于 charlotte
 folder: info
 layout: deviceinfo
 permalink: /devices/charlotte/

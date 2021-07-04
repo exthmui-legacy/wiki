@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about pollux
+title: 关于 pollux
 folder: info
 layout: deviceinfo
 permalink: /devices/pollux/

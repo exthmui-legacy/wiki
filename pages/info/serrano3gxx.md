@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about serrano3gxx
+title: 关于 serrano3gxx
 folder: info
 layout: deviceinfo
 permalink: /devices/serrano3gxx/

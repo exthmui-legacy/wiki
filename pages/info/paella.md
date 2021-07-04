@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about paella
+title: 关于 paella
 folder: info
 layout: deviceinfo
 permalink: /devices/paella/

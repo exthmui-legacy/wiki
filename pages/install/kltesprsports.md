@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on kltesprsports
+title: 安装 LineageOS 到 kltesprsports
 folder: install
 permalink: /devices/kltesprsports/install
 device: kltesprsports

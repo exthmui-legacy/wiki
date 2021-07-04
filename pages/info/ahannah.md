@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about ahannah
+title: 关于 ahannah
 folder: info
 layout: deviceinfo
 permalink: /devices/ahannah/

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about maguro
+title: 关于 maguro
 folder: info
 layout: deviceinfo
 permalink: /devices/maguro/

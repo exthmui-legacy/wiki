@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about maserati
+title: 关于 maserati
 folder: info
 layout: deviceinfo
 permalink: /devices/maserati/

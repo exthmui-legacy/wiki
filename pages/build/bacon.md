@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for bacon
+title: 编译 LineageOS 给 bacon
 folder: build
 permalink: /devices/bacon/build
 device: bacon

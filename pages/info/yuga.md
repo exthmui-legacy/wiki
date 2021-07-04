@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about yuga
+title: 关于 yuga
 folder: info
 layout: deviceinfo
 permalink: /devices/yuga/

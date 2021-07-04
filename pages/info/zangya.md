@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about zangya
+title: 关于 zangya
 folder: info
 layout: deviceinfo
 permalink: /devices/zangya/

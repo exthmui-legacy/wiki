@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about jfvelte
+title: 关于 jfvelte
 folder: info
 layout: deviceinfo
 permalink: /devices/jfvelte/

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about sumire
+title: 关于 sumire
 folder: info
 layout: deviceinfo
 permalink: /devices/sumire/

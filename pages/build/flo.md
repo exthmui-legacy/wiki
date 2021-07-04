@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for flo
+title: 编译 LineageOS 给 flo
 folder: build
 permalink: /devices/flo/build
 device: flo

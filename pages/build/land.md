@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for land
+title: 编译 LineageOS 给 land
 folder: build
 permalink: /devices/land/build
 device: land

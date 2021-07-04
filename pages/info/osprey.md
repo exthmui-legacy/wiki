@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about osprey
+title: 关于 osprey
 folder: info
 layout: deviceinfo
 permalink: /devices/osprey/

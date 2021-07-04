@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about axon7
+title: 关于 axon7
 folder: info
 layout: deviceinfo
 permalink: /devices/axon7/

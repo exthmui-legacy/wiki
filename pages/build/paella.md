@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for paella
+title: 编译 LineageOS 给 paella
 folder: build
 permalink: /devices/paella/build
 device: paella

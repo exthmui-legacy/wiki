@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about huashan
+title: 关于 huashan
 folder: info
 layout: deviceinfo
 permalink: /devices/huashan/

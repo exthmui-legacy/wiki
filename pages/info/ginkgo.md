@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about ginkgo
+title: 关于 ginkgo
 folder: info
 layout: deviceinfo
 permalink: /devices/ginkgo/

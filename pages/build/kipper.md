@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for kipper
+title: 编译 LineageOS 给 kipper
 folder: build
 permalink: /devices/kipper/build
 device: kipper

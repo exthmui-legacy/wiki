@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about dipper
+title: 关于 dipper
 folder: info
 layout: deviceinfo
 permalink: /devices/dipper/

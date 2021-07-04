@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for hiae
+title: 编译 LineageOS 给 hiae
 folder: build
 permalink: /devices/hiae/build
 device: hiae

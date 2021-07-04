@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about gts210wifi
+title: 关于 gts210wifi
 folder: info
 layout: deviceinfo
 permalink: /devices/gts210wifi/

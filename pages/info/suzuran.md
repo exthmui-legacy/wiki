@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about suzuran
+title: 关于 suzuran
 folder: info
 layout: deviceinfo
 permalink: /devices/suzuran/

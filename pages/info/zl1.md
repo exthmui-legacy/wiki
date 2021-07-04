@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about zl1
+title: 关于 zl1
 folder: info
 layout: deviceinfo
 permalink: /devices/zl1/

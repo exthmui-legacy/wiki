@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about lt03lte
+title: 关于 lt03lte
 folder: info
 layout: deviceinfo
 permalink: /devices/lt03lte/

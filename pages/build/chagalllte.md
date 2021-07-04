@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for chagalllte
+title: 编译 LineageOS 给 chagalllte
 folder: build
 permalink: /devices/chagalllte/build
 device: chagalllte

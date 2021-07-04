@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for redfin
+title: 编译 LineageOS 给 redfin
 folder: build
 permalink: /devices/redfin/build
 device: redfin

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about klteaio
+title: 关于 klteaio
 folder: info
 layout: deviceinfo
 permalink: /devices/klteaio/

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for whyred
+title: 编译 LineageOS 给 whyred
 folder: build
 permalink: /devices/whyred/build
 device: whyred

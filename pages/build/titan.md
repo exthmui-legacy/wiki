@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for titan
+title: 编译 LineageOS 给 titan
 folder: build
 permalink: /devices/titan/build
 device: titan

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about klteactivexx
+title: 关于 klteactivexx
 folder: info
 layout: deviceinfo
 permalink: /devices/klteactivexx/

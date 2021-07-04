@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for cancro
+title: 编译 LineageOS 给 cancro
 folder: build
 permalink: /devices/cancro/build
 device: cancro

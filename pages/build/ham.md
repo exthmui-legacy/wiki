@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for ham
+title: 编译 LineageOS 给 ham
 folder: build
 permalink: /devices/ham/build
 device: ham

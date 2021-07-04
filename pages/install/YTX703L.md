@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on YTX703L
+title: 安装 LineageOS 到 YTX703L
 folder: install
 permalink: /devices/YTX703L/install
 device: YTX703L

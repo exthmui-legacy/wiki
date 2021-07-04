@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on mata
+title: 安装 LineageOS 到 mata
 folder: install
 permalink: /devices/mata/install
 device: mata

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for toroplus
+title: 编译 LineageOS 给 toroplus
 folder: build
 permalink: /devices/toroplus/build
 device: toroplus

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on cheryl
+title: 安装 LineageOS 到 cheryl
 folder: install
 permalink: /devices/cheryl/install
 device: cheryl

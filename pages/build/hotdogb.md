@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for hotdogb
+title: 编译 LineageOS 给 hotdogb
 folder: build
 permalink: /devices/hotdogb/build
 device: hotdogb

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about flo
+title: 关于 flo
 folder: info
 layout: deviceinfo
 permalink: /devices/flo/

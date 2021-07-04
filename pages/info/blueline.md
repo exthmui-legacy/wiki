@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about blueline
+title: 关于 blueline
 folder: info
 layout: deviceinfo
 permalink: /devices/blueline/

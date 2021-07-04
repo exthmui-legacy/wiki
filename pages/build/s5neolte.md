@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for s5neolte
+title: 编译 LineageOS 给 s5neolte
 folder: build
 permalink: /devices/s5neolte/build
 device: s5neolte

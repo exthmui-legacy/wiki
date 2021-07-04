@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about bullhead
+title: 关于 bullhead
 folder: info
 layout: deviceinfo
 permalink: /devices/bullhead/

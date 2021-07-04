@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for FP2
+title: 编译 LineageOS 给 FP2
 folder: build
 permalink: /devices/FP2/build
 device: FP2

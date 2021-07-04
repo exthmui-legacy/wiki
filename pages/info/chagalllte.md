@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about chagalllte
+title: 关于 chagalllte
 folder: info
 layout: deviceinfo
 permalink: /devices/chagalllte/

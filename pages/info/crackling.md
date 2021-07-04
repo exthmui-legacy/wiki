@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about crackling
+title: 关于 crackling
 folder: info
 layout: deviceinfo
 permalink: /devices/crackling/

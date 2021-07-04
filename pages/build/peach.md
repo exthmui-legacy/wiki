@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for peach
+title: 编译 LineageOS 给 peach
 folder: build
 permalink: /devices/peach/build
 device: peach

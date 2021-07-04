@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about albus
+title: 关于 albus
 folder: info
 layout: deviceinfo
 permalink: /devices/albus/

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for hammerhead
+title: 编译 LineageOS 给 hammerhead
 folder: build
 permalink: /devices/hammerhead/build
 device: hammerhead

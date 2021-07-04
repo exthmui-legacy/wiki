@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about angler
+title: 关于 angler
 folder: info
 layout: deviceinfo
 permalink: /devices/angler/

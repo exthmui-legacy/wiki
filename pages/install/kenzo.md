@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on kenzo
+title: 安装 LineageOS 到 kenzo
 folder: install
 permalink: /devices/kenzo/install
 device: kenzo

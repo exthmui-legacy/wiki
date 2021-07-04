@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on kebab
+title: 安装 LineageOS 到 kebab
 folder: install
 permalink: /devices/kebab/install
 device: kebab

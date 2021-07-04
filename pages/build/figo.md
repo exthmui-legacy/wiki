@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for figo
+title: 编译 LineageOS 给 figo
 folder: build
 permalink: /devices/figo/build
 device: figo

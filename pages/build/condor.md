@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for condor
+title: 编译 LineageOS 给 condor
 folder: build
 permalink: /devices/condor/build
 device: condor

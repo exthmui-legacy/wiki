@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for polaris
+title: 编译 LineageOS 给 polaris
 folder: build
 permalink: /devices/polaris/build
 device: polaris

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for X01AD
+title: 编译 LineageOS 给 X01AD
 folder: build
 permalink: /devices/X01AD/build
 device: X01AD

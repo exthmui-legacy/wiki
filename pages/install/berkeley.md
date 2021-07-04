@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on berkeley
+title: 安装 LineageOS 到 berkeley
 folder: install
 permalink: /devices/berkeley/install
 device: berkeley

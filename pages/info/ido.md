@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about ido
+title: 关于 ido
 folder: info
 layout: deviceinfo
 permalink: /devices/ido/

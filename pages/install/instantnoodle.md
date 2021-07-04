@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on instantnoodle
+title: 安装 LineageOS 到 instantnoodle
 folder: install
 permalink: /devices/instantnoodle/install
 device: instantnoodle

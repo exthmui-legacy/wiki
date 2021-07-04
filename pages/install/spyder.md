@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on spyder
+title: 安装 LineageOS 到 spyder
 folder: install
 permalink: /devices/spyder/install
 device: spyder

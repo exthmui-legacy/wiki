@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about cheeseburger
+title: 关于 cheeseburger
 folder: info
 layout: deviceinfo
 permalink: /devices/cheeseburger/

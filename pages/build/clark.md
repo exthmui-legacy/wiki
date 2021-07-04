@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for clark
+title: 编译 LineageOS 给 clark
 folder: build
 permalink: /devices/clark/build
 device: clark

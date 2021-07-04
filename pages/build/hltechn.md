@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for hltechn
+title: 编译 LineageOS 给 hltechn
 folder: build
 permalink: /devices/hltechn/build
 device: hltechn

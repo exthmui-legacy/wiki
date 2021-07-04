@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on kiwi
+title: 安装 LineageOS 到 kiwi
 folder: install
 permalink: /devices/kiwi/install
 device: kiwi

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about roth
+title: 关于 roth
 folder: info
 layout: deviceinfo
 permalink: /devices/roth/

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about enchilada
+title: 关于 enchilada
 folder: info
 layout: deviceinfo
 permalink: /devices/enchilada/

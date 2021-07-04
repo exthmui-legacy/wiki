@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for X00TD
+title: 编译 LineageOS 给 X00TD
 folder: build
 permalink: /devices/X00TD/build
 device: X00TD

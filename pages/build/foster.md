@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for foster
+title: 编译 LineageOS 给 foster
 folder: build
 permalink: /devices/foster/build
 device: foster

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about evert
+title: 关于 evert
 folder: info
 layout: deviceinfo
 permalink: /devices/evert/

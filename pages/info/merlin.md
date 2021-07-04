@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about merlin
+title: 关于 merlin
 folder: info
 layout: deviceinfo
 permalink: /devices/merlin/

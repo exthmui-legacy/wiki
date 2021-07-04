@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for griffin
+title: 编译 LineageOS 给 griffin
 folder: build
 permalink: /devices/griffin/build
 device: griffin

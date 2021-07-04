@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on nash
+title: 安装 LineageOS 到 nash
 folder: install
 permalink: /devices/nash/install
 device: nash

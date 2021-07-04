@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about onclite
+title: 关于 onclite
 folder: info
 layout: deviceinfo
 permalink: /devices/onclite/

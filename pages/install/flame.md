@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on flame
+title: 安装 LineageOS 到 flame
 folder: install
 permalink: /devices/flame/install
 device: flame

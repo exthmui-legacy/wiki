@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about anne
+title: 关于 anne
 folder: info
 layout: deviceinfo
 permalink: /devices/anne/

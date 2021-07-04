@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for g2m
+title: 编译 LineageOS 给 g2m
 folder: build
 permalink: /devices/g2m/build
 device: g2m

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for instantnoodlep
+title: 编译 LineageOS 给 instantnoodlep
 folder: build
 permalink: /devices/instantnoodlep/build
 device: instantnoodlep

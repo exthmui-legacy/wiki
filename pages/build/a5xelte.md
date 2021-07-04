@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for a5xelte
+title: 编译 LineageOS 给 a5xelte
 folder: build
 permalink: /devices/a5xelte/build
 device: a5xelte

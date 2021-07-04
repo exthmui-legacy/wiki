@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about kingdom
+title: 关于 kingdom
 folder: info
 layout: deviceinfo
 permalink: /devices/kingdom/

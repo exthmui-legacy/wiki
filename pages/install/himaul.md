@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on himaul
+title: 安装 LineageOS 到 himaul
 folder: install
 permalink: /devices/himaul/install
 device: himaul

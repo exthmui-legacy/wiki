@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on thea
+title: 安装 LineageOS 到 thea
 folder: install
 permalink: /devices/thea/install
 device: thea

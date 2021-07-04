@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for hannah
+title: 编译 LineageOS 给 hannah
 folder: build
 permalink: /devices/hannah/build
 device: hannah

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on bramble
+title: 安装 LineageOS 到 bramble
 folder: install
 permalink: /devices/bramble/install
 device: bramble

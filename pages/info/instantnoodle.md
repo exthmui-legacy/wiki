@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about instantnoodle
+title: 关于 instantnoodle
 folder: info
 layout: deviceinfo
 permalink: /devices/instantnoodle/

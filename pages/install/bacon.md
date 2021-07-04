@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on bacon
+title: 安装 LineageOS 到 bacon
 folder: install
 permalink: /devices/bacon/install
 device: bacon

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for maguro
+title: 编译 LineageOS 给 maguro
 folder: build
 permalink: /devices/maguro/build
 device: maguro

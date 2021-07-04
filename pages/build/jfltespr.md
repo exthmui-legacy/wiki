@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for jfltespr
+title: 编译 LineageOS 给 jfltespr
 folder: build
 permalink: /devices/jfltespr/build
 device: jfltespr

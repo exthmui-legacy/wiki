@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about nicki
+title: 关于 nicki
 folder: info
 layout: deviceinfo
 permalink: /devices/nicki/

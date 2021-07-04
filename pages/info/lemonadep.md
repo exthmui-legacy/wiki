@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about lemonadep
+title: 关于 lemonadep
 folder: info
 layout: deviceinfo
 permalink: /devices/lemonadep/

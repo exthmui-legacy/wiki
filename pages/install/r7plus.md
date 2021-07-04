@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on r7plus
+title: 安装 LineageOS 到 r7plus
 folder: install
 permalink: /devices/r7plus/install
 device: r7plus

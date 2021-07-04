@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for ghost
+title: 编译 LineageOS 给 ghost
 folder: build
 permalink: /devices/ghost/build
 device: ghost

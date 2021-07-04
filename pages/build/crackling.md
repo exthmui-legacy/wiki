@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for crackling
+title: 编译 LineageOS 给 crackling
 folder: build
 permalink: /devices/crackling/build
 device: crackling

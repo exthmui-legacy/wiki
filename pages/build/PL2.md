@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for PL2
+title: 编译 LineageOS 给 PL2
 folder: build
 permalink: /devices/PL2/build
 device: PL2

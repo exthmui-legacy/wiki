@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for klteactivexx
+title: 编译 LineageOS 给 klteactivexx
 folder: build
 permalink: /devices/klteactivexx/build
 device: klteactivexx

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about jagnm
+title: 关于 jagnm
 folder: info
 layout: deviceinfo
 permalink: /devices/jagnm/

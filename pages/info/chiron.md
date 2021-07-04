@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about chiron
+title: 关于 chiron
 folder: info
 layout: deviceinfo
 permalink: /devices/chiron/

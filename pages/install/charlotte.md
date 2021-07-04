@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on charlotte
+title: 安装 LineageOS 到 charlotte
 folder: install
 permalink: /devices/charlotte/install
 device: charlotte

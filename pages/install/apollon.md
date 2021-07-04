@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on apollon
+title: 安装 LineageOS 到 apollon
 folder: install
 permalink: /devices/apollon/install
 device: apollon

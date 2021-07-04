@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on discovery
+title: 安装 LineageOS 到 discovery
 folder: install
 permalink: /devices/discovery/install
 device: discovery

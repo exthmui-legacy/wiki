@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about ha3g
+title: 关于 ha3g
 folder: info
 layout: deviceinfo
 permalink: /devices/ha3g/

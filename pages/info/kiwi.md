@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about kiwi
+title: 关于 kiwi
 folder: info
 layout: deviceinfo
 permalink: /devices/kiwi/

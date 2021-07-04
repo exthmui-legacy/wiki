@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for nash
+title: 编译 LineageOS 给 nash
 folder: build
 permalink: /devices/nash/build
 device: nash

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about f1f
+title: 关于 f1f
 folder: info
 layout: deviceinfo
 permalink: /devices/f1f/

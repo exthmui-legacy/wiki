@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for tissot
+title: 编译 LineageOS 给 tissot
 folder: build
 permalink: /devices/tissot/build
 device: tissot

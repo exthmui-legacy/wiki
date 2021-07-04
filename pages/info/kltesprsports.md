@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about kltesprsports
+title: 关于 kltesprsports
 folder: info
 layout: deviceinfo
 permalink: /devices/kltesprsports/

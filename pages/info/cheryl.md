@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about cheryl
+title: 关于 cheryl
 folder: info
 layout: deviceinfo
 permalink: /devices/cheryl/

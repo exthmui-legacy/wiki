@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about akari
+title: 关于 akari
 folder: info
 layout: deviceinfo
 permalink: /devices/akari/

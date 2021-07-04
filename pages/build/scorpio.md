@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for scorpio
+title: 编译 LineageOS 给 scorpio
 folder: build
 permalink: /devices/scorpio/build
 device: scorpio

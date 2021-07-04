@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on a5xelte
+title: 安装 LineageOS 到 a5xelte
 folder: install
 permalink: /devices/a5xelte/install
 device: a5xelte

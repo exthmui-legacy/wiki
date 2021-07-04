@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on merlin
+title: 安装 LineageOS 到 merlin
 folder: install
 permalink: /devices/merlin/install
 device: merlin

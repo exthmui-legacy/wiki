@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for m8d
+title: 编译 LineageOS 给 m8d
 folder: build
 permalink: /devices/m8d/build
 device: m8d

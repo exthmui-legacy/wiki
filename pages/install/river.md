@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on river
+title: 安装 LineageOS 到 river
 folder: install
 permalink: /devices/river/install
 device: river

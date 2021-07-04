@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about g2m
+title: 关于 g2m
 folder: info
 layout: deviceinfo
 permalink: /devices/g2m/

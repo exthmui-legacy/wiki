@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about gts4lvwifi
+title: 关于 gts4lvwifi
 folder: info
 layout: deviceinfo
 permalink: /devices/gts4lvwifi/

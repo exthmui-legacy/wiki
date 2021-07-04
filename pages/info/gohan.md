@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about gohan
+title: 关于 gohan
 folder: info
 layout: deviceinfo
 permalink: /devices/gohan/

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for mako
+title: 编译 LineageOS 给 mako
 folder: build
 permalink: /devices/mako/build
 device: mako

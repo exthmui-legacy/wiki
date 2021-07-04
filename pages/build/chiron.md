@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for chiron
+title: 编译 LineageOS 给 chiron
 folder: build
 permalink: /devices/chiron/build
 device: chiron

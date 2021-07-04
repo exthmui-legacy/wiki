@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about clark
+title: 关于 clark
 folder: info
 layout: deviceinfo
 permalink: /devices/clark/

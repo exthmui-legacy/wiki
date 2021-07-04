@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about sagit
+title: 关于 sagit
 folder: info
 layout: deviceinfo
 permalink: /devices/sagit/

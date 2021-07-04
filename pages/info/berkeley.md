@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about berkeley
+title: 关于 berkeley
 folder: info
 layout: deviceinfo
 permalink: /devices/berkeley/

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about lake
+title: 关于 lake
 folder: info
 layout: deviceinfo
 permalink: /devices/lake/

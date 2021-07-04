@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for gts4lv
+title: 编译 LineageOS 给 gts4lv
 folder: build
 permalink: /devices/gts4lv/build
 device: gts4lv

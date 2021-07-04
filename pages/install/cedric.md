@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on cedric
+title: 安装 LineageOS 到 cedric
 folder: install
 permalink: /devices/cedric/install
 device: cedric

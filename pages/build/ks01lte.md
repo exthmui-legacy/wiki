@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for ks01lte
+title: 编译 LineageOS 给 ks01lte
 folder: build
 permalink: /devices/ks01lte/build
 device: ks01lte

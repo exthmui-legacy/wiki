@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for serranoltexx
+title: 编译 LineageOS 给 serranoltexx
 folder: build
 permalink: /devices/serranoltexx/build
 device: serranoltexx

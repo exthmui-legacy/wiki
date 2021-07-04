@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on akatsuki
+title: 安装 LineageOS 到 akatsuki
 folder: install
 permalink: /devices/akatsuki/install
 device: akatsuki

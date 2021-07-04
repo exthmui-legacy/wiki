@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for zangya
+title: 编译 LineageOS 给 zangya
 folder: build
 permalink: /devices/zangya/build
 device: zangya

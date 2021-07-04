@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for f1f
+title: 编译 LineageOS 给 f1f
 folder: build
 permalink: /devices/f1f/build
 device: f1f

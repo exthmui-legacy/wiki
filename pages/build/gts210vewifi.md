@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for gts210vewifi
+title: 编译 LineageOS 给 gts210vewifi
 folder: build
 permalink: /devices/gts210vewifi/build
 device: gts210vewifi

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about flame
+title: 关于 flame
 folder: info
 layout: deviceinfo
 permalink: /devices/flame/

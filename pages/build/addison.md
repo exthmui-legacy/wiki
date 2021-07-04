@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for addison
+title: 编译 LineageOS 给 addison
 folder: build
 permalink: /devices/addison/build
 device: addison

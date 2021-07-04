@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about targa
+title: 关于 targa
 folder: info
 layout: deviceinfo
 permalink: /devices/targa/

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on whyred
+title: 安装 LineageOS 到 whyred
 folder: install
 permalink: /devices/whyred/install
 device: whyred

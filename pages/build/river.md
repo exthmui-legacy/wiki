@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for river
+title: 编译 LineageOS 给 river
 folder: build
 permalink: /devices/river/build
 device: river

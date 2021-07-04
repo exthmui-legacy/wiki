@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for walleye
+title: 编译 LineageOS 给 walleye
 folder: build
 permalink: /devices/walleye/build
 device: walleye

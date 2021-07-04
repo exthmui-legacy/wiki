@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about hannah
+title: 关于 hannah
 folder: info
 layout: deviceinfo
 permalink: /devices/hannah/

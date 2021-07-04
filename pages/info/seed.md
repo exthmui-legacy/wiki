@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about seed
+title: 关于 seed
 folder: info
 layout: deviceinfo
 permalink: /devices/seed/

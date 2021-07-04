@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about deb
+title: 关于 deb
 folder: info
 layout: deviceinfo
 permalink: /devices/deb/

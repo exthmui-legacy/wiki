@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about mint
+title: 关于 mint
 folder: info
 layout: deviceinfo
 permalink: /devices/mint/

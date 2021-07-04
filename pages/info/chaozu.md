@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about chaozu
+title: 关于 chaozu
 folder: info
 layout: deviceinfo
 permalink: /devices/chaozu/

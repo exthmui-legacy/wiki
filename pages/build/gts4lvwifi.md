@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for gts4lvwifi
+title: 编译 LineageOS 给 gts4lvwifi
 folder: build
 permalink: /devices/gts4lvwifi/build
 device: gts4lvwifi

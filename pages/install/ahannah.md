@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on ahannah
+title: 安装 LineageOS 到 ahannah
 folder: install
 permalink: /devices/ahannah/install
 device: ahannah

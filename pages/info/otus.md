@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about otus
+title: 关于 otus
 folder: info
 layout: deviceinfo
 permalink: /devices/otus/

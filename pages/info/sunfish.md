@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about sunfish
+title: 关于 sunfish
 folder: info
 layout: deviceinfo
 permalink: /devices/sunfish/

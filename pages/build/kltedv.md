@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for kltedv
+title: 编译 LineageOS 给 kltedv
 folder: build
 permalink: /devices/kltedv/build
 device: kltedv

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about falcon
+title: 关于 falcon
 folder: info
 layout: deviceinfo
 permalink: /devices/falcon/

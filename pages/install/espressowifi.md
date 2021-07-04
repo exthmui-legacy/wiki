@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on espressowifi
+title: 安装 LineageOS 到 espressowifi
 folder: install
 permalink: /devices/espressowifi/install
 device: espressowifi

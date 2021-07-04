@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on armani
+title: 安装 LineageOS 到 armani
 folder: install
 permalink: /devices/armani/install
 device: armani

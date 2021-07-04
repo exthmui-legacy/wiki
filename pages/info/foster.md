@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about foster
+title: 关于 foster
 folder: info
 layout: deviceinfo
 permalink: /devices/foster/

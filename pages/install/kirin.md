@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on kirin
+title: 安装 LineageOS 到 kirin
 folder: install
 permalink: /devices/kirin/install
 device: kirin

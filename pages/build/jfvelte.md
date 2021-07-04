@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for jfvelte
+title: 编译 LineageOS 给 jfvelte
 folder: build
 permalink: /devices/jfvelte/build
 device: jfvelte

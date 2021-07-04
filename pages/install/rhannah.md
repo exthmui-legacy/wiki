@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on rhannah
+title: 安装 LineageOS 到 rhannah
 folder: install
 permalink: /devices/rhannah/install
 device: rhannah

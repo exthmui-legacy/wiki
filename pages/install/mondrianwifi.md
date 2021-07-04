@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on mondrianwifi
+title: 安装 LineageOS 到 mondrianwifi
 folder: install
 permalink: /devices/mondrianwifi/install
 device: mondrianwifi

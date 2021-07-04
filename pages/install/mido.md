@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on mido
+title: 安装 LineageOS 到 mido
 folder: install
 permalink: /devices/mido/install
 device: mido

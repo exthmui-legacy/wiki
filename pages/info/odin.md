@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about odin
+title: 关于 odin
 folder: info
 layout: deviceinfo
 permalink: /devices/odin/

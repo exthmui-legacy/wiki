@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for hltetmo
+title: 编译 LineageOS 给 hltetmo
 folder: build
 permalink: /devices/hltetmo/build
 device: hltetmo

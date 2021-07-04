@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on griffin
+title: 安装 LineageOS 到 griffin
 folder: install
 permalink: /devices/griffin/install
 device: griffin

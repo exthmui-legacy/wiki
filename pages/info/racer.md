@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about racer
+title: 关于 racer
 folder: info
 layout: deviceinfo
 permalink: /devices/racer/

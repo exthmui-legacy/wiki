@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about t6vzw
+title: 关于 t6vzw
 folder: info
 layout: deviceinfo
 permalink: /devices/t6vzw/

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about montana
+title: 关于 montana
 folder: info
 layout: deviceinfo
 permalink: /devices/montana/

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for athene
+title: 编译 LineageOS 给 athene
 folder: build
 permalink: /devices/athene/build
 device: athene

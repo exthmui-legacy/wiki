@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on mermaid
+title: 安装 LineageOS 到 mermaid
 folder: install
 permalink: /devices/mermaid/install
 device: mermaid

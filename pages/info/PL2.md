@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about PL2
+title: 关于 PL2
 folder: info
 layout: deviceinfo
 permalink: /devices/PL2/

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for lake
+title: 编译 LineageOS 给 lake
 folder: build
 permalink: /devices/lake/build
 device: lake

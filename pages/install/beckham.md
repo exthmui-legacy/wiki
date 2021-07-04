@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on beckham
+title: 安装 LineageOS 到 beckham
 folder: install
 permalink: /devices/beckham/install
 device: beckham

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about manta
+title: 关于 manta
 folder: info
 layout: deviceinfo
 permalink: /devices/manta/

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about griffin
+title: 关于 griffin
 folder: info
 layout: deviceinfo
 permalink: /devices/griffin/

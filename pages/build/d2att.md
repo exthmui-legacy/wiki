@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for d2att
+title: 编译 LineageOS 给 d2att
 folder: build
 permalink: /devices/d2att/build
 device: d2att

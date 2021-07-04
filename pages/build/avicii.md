@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for avicii
+title: 编译 LineageOS 给 avicii
 folder: build
 permalink: /devices/avicii/build
 device: avicii

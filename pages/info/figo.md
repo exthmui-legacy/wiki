@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about figo
+title: 关于 figo
 folder: info
 layout: deviceinfo
 permalink: /devices/figo/

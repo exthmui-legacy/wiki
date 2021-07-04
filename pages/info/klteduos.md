@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about klteduos
+title: 关于 klteduos
 folder: info
 layout: deviceinfo
 permalink: /devices/klteduos/

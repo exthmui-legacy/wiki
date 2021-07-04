@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about espressowifi
+title: 关于 espressowifi
 folder: info
 layout: deviceinfo
 permalink: /devices/espressowifi/

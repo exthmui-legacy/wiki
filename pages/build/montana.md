@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for montana
+title: 编译 LineageOS 给 montana
 folder: build
 permalink: /devices/montana/build
 device: montana

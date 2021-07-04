@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for gts210ltexx
+title: 编译 LineageOS 给 gts210ltexx
 folder: build
 permalink: /devices/gts210ltexx/build
 device: gts210ltexx

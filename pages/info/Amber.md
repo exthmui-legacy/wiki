@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about Amber
+title: 关于 Amber
 folder: info
 layout: deviceinfo
 permalink: /devices/Amber/

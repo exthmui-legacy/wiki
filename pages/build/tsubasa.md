@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for tsubasa
+title: 编译 LineageOS 给 tsubasa
 folder: build
 permalink: /devices/tsubasa/build
 device: tsubasa

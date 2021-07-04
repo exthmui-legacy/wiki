@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on sargo
+title: 安装 LineageOS 到 sargo
 folder: install
 permalink: /devices/sargo/install
 device: sargo

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about dumpling
+title: 关于 dumpling
 folder: info
 layout: deviceinfo
 permalink: /devices/dumpling/

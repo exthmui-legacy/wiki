@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on gohan
+title: 安装 LineageOS 到 gohan
 folder: install
 permalink: /devices/gohan/install
 device: gohan

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about X01AD
+title: 关于 X01AD
 folder: info
 layout: deviceinfo
 permalink: /devices/X01AD/

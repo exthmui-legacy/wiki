@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on lake
+title: 安装 LineageOS 到 lake
 folder: install
 permalink: /devices/lake/install
 device: lake

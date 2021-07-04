@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for jasmine_sprout
+title: 编译 LineageOS 给 jasmine_sprout
 folder: build
 permalink: /devices/jasmine_sprout/build
 device: jasmine_sprout

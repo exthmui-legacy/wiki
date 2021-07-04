@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about karin_windy
+title: 关于 karin_windy
 folder: info
 layout: deviceinfo
 permalink: /devices/karin_windy/

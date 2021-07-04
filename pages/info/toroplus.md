@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about toroplus
+title: 关于 toroplus
 folder: info
 layout: deviceinfo
 permalink: /devices/toroplus/

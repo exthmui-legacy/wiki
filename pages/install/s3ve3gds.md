@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on s3ve3gds
+title: 安装 LineageOS 到 s3ve3gds
 folder: install
 permalink: /devices/s3ve3gds/install
 device: s3ve3gds

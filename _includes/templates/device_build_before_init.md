@@ -1,43 +1,40 @@
-### What you'll need
+### 你需要
 
 {% if device -%}
-* A {{ device.vendor }} {{ device.name }}.
+* 一台 {{ device.vendor }} {{ device.name }}.
 {%- endif %}
-* A relatively recent 64-bit computer (Linux, macOS, or Windows) with a reasonable amount of RAM and about 200 GB of free storage (more if you enable `ccache`
- or build for multiple devices). The less RAM you have, the longer the build will take. Aim for 16 GB RAM or more, enabling ZRAM can be helpful. Using SSDs results in considerably faster
- build times than traditional hard drives.
-* A decent internet connection and reliable electricity. :)
-* Some familiarity with basic Android operation and terminology.
- It may be useful to know some basic command line concepts such as `cd`, which stands for “change directory”, the concept of directory hierarchies, and that in Linux they are separated by `/`, etc.
+* 一台配置较好的 64 位电脑，存储空间至少需要 200 GB，RAM 至少 16 GB
+* 良好的网络环境
+* 懂一定的 Android 术语和 Linux 命令.
+ 了解一些基本的命令行概念很有用，例如 `cd`，它代表 "改变目录"，目录层次的概念，以及在 Linux 中它们是由 `/` 分隔的，等等。
 
-{% include alerts/tip.html content="If you are not accustomed to using Linux, this is an excellent chance to learn. It’s free -- just download and run a virtual machine (VM) such as
-[VirtualBox](https://www.virtualbox.org), then install a Linux distribution such as [Ubuntu](https://www.ubuntu.com) ([AOSP vets Ubuntu as well](https://source.android.com/source/initializing.html)).
-Any recent 64-bit version should work great, but the latest Long Term Support (LTS) version is recommended. There are plenty of instructions on setting up VirtualBox to run Ubuntu, so we'll leave that to you. Though it is worth noting, if you already use either a Linux distro or macOS, you can just proceed." %}
+{% include alerts/tip.html content="如果你不习惯使用Linux，这是一个很好的学习机会。它是免费的，只需下载并运行一个虚拟机（VM），如 [VirtualBox](https://www.virtualbox.org), 然后安装一个 Linux 发行版，如 [Ubuntu](https://www.ubuntu.com)。
+任何最新版本的 64 位 Ubuntu 都没问题，但我们建议使用最新的长期支持（LTS）版本。关于使用 VirtualBox 来运行 Ubuntu 在网络上有很多说明，所以我们把这个问题留给你。如果你已经在使用 Linux 或 macOS，你可以直接进入下一步。" %}
 
-Let's begin!
+让我们开始！
 
-## Build LineageOS
+## 编译 LineageOS
 
 {% if device %}
-{% include alerts/note.html content="You only need to do these steps once. If you have already prepared your build environment and downloaded the source code,
-skip to [Prepare the device-specific code](#prepare-the-device-specific-code)" %}
+{% include alerts/note.html content="这些步骤你只需要做一次。如果你已经配置好了编译环境并同步了源代码,
+转到[准备设备代码](#prepare-the-device-specific-code)" %}
 {% else %}
-{% include alerts/note.html content="You only need to do these steps once. If you have already prepared your build environment and downloaded the source code,
-skip to [Start the build](#start-the-build)" %}
+{% include alerts/note.html content="这些步骤你只需要做一次。如果你已经配置好了编译环境并同步了源代码,
+转到[开始编译](#start-the-build)" %}
 {% endif %}
 
-### Install the platform-tools
+### 安装 platform-tools
 
-If you haven't previously installed `adb` and `fastboot`, you can [download them from Google](https://dl.google.com/android/repository/platform-tools-latest-linux.zip).
-Extract it running:
+如果您还没有安装 `adb` 和 `fastboot`, 你可以从 [Google 下载](https://dl.google.com/android/repository/platform-tools-latest-linux.zip)，
+然后解压并运行:
 
 ```
 unzip platform-tools-latest-linux.zip -d ~
 ```
 
-{% include alerts/tip.html content="The file may not be named identically to what stands in this command, so adjust accordingly." %}
+{% include alerts/tip.html content="文件的名称可能与此命令中的名称不同，需要做相应调整。" %}
 
-Now you have to add `adb` and `fastboot` to your PATH. Open `~/.profile` and add the following:
+现在需要将 `adb` 和 `fastboot` 添加到环境变量 (PATH) 中. 打开 `~/.profile` 然后添加如下内容:
 
 ```
 # add Android SDK platform tools to path
@@ -46,15 +43,13 @@ if [ -d "$HOME/platform-tools" ] ; then
 fi
 ```
 
-Then, run `source ~/.profile` to update your environment.
+然后运行 `source ~/.profile` 来更新您的环境变量
 
-### Install the build packages
+### 安装编译 LineageOS 所需的依赖包
 
-Several packages are needed to build LineageOS. You can install these using your distribution's package manager.
+编译 LineageOS 依赖于几个软件包。你可以使用你 Linux 发行版的软件包管理器安装这些软件包。
 
-{% include alerts/tip.html content="A [package manager](https://en.wikipedia.org/wiki/Package_manager) in Linux is a system used to install or remove software
-(usually originating from the Internet) on your computer. With Ubuntu, you can use the Ubuntu Software Center. Even better, you may also use the `apt-get install`
-command directly in the Terminal." %}
+{% include alerts/tip.html content="[软件包管理器](https://en.wikipedia.org/wiki/Package_manager) 是 Linux 中用于安装或删除软件用的软件。在 Ubuntu 中，你可以直接使用 Ubuntu 软件中心，你也可以直接在终端使用 `apt-get` 命令。" %}
 
 {%- capture cpu_architecture %}
 {%- if device.architecture.cpu -%}
@@ -64,7 +59,7 @@ command directly in the Terminal." %}
 {%- endif -%}
 {%- endcapture -%}
 
-To build LineageOS, you'll need:
+编译 LineageOS 需要:
 
 * `bc bison build-essential ccache curl flex g++-multilib gcc-multilib git gnupg gperf imagemagick
    lib32ncurses5-dev lib32readline-dev lib32z1-dev liblz4-tool libncurses5 libncurses5-dev
@@ -73,111 +68,117 @@ To build LineageOS, you'll need:
    zip zlib1g-dev`
 
 {% if device.versions contains 13.0 %}
-To build LineageOS 13.0, you'll also need:
+要编译 LineageOS 13.0, 还需要:
 
 * `maven`
 {% endif %}
 
-For Ubuntu versions older than 20.04 (focal), install also:
+如果 Ubuntu 版本低于 20.04 (focal), 还需要:
 
 * `libwxgtk3.0-dev`
 
-While for Ubuntu versions older than 16.04 (xenial), install:
+如果 Ubuntu 版本低于 16.04 (xenial), 还需要:
 
 * `libwxgtk2.8-dev`
 
 #### Java
 
-Different versions of LineageOS require different JDK (Java Development Kit) versions.
+不同版本的 LineageOS 依赖于不同版本的 JDK (Java 开发套件) 版本。
 
-* LineageOS 18.1: OpenJDK 11 (included in source download)
-* LineageOS 16.0-17.1: OpenJDK 1.9 (included in source download)
-* LineageOS 14.1-15.1: OpenJDK 1.8 (install `openjdk-8-jdk`)
-* LineageOS 11.0-13.0: OpenJDK 1.7 (install `openjdk-7-jdk`)\*
+* LineageOS 18.1: OpenJDK 11 (包含在源码中)
+* LineageOS 16.0-17.1: OpenJDK 1.9 (包含在源码中)
+* LineageOS 14.1-15.1: OpenJDK 1.8 (安装 `openjdk-8-jdk`)
+* LineageOS 11.0-13.0: OpenJDK 1.7 (安装 `openjdk-7-jdk`)\*
 
-\* Ubuntu 16.04 and newer do not have OpenJDK 1.7 in the standard package repositories. See the *Ask Ubuntu* question "[How do I install openjdk 7 on Ubuntu 16.04 or higher?](http://askubuntu.com/questions/761127/how-do-i-install-openjdk-7-on-ubuntu-16-04-or-higher)". Note that the suggestion to use PPA openjdk-r is outdated (the PPA has never updated their offering of openjdk-7-jdk, so it lacks security fixes); skip that answer even if it is the most upvoted.
+\* Ubuntu 16.04 或更新版本的软件源中没有包含 OpenJDK 1.7。
+参考问题 "[如何在 Ubuntu 16.04 或更高版本中安装 openjdk 7](http://askubuntu.com/questions/761127/how-do-i-install-openjdk-7-on-ubuntu-16-04-or-higher)"
 
-### Create the directories
+注意，使用 PPA openjdk-r 的建议已经过时了 (PPA 从未更新他们提供的 openjdk-7-jdk，所以它缺乏安全修复。)
 
-You'll need to set up some directories in your build environment.
+跳过这个得到最多人支持的答案。
 
-To create them:
+### 新建文件夹
+
+你需要在你的构建环境中新建一些目录。
+
+这样来新建:
 
 ```
 mkdir -p ~/bin
 mkdir -p ~/android/lineage
 ```
 
-The `~/bin` directory will contain the git-repo tool (commonly named "repo") and the `~/android/lineage` directory will contain the source code of LineageOS.
+`~/bin` 目录将包含 git-repo（通常称为 "repo"），`~/android/lineage` 目录将包含 LineageOS 的源代码。
 
-### Install the `repo` command
+### 安装 `repo` 的命令
 
-Enter the following to download the `repo` binary and make it executable (runnable):
+运行以下命令来下载 `repo` 二进制文件，并使其可执行:
 
 ```
 curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 chmod a+x ~/bin/repo
 ```
 
-### Put the `~/bin` directory in your path of execution
+### 将 `~/bin` 加入到环境变量
 
-In recent versions of Ubuntu, `~/bin` should already be in your PATH. You can check this by opening `~/.profile` with a text editor and verifying the following code exists (add it if it is missing):
+在最近版本的 Ubuntu, `~/bin` 应该已经被添加到环境变量。
+
+您可以打开 `~/.profile` 来检查是否已被添加 (如果没被添加，请手动添加):
 
 ```
-# set PATH so it includes user's private bin if it exists
 if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
 ```
 
-Then, run `source ~/.profile` to update your environment.
+然后运行 `source ~/.profile` 来更新您的环境变量
 
 
-### Configure git
-Given that `repo` requires you to identify yourself to sync Android, run the following commands to configure your `git` identity:
+### 配置 git
+`repo` 需要鉴定您的身份以同步 Android 源代码, 运行以下命令来配置你的 `git` 身份:
 ```
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 ```
 
+### 打开缓存来加速编译
 
-### Turn on caching to speed up build
-
-Make use of [`ccache`](https://ccache.samba.org/) if you want to speed up subsequent builds by running:
+如果您想加快后继编译的速度，您可以打开 [`ccache`](https://ccache.samba.org/)：
 
 ```
 export USE_CCACHE=1
 export CCACHE_EXEC=/usr/bin/ccache
 ```
 
-and adding that line to your `~/.bashrc` file. Then, specify the maximum amount of disk space you want `ccache` to use by typing this:
+将这些加入到 `~/.bashrc`，然后通过输入以下命令设置你希望 `ccache` 使用的最大磁盘空间：
 
 ```
 ccache -M 50G
 ```
 
-where `50G` corresponds to 50GB of cache. This needs to be run once. Anywhere from 25GB-100GB will result in very noticeably increased build speeds
-(for instance, a typical 1hr build time can be reduced to 20min). If you're only building for one device, 25GB-50GB is fine. If you plan to build
-for several devices that do not share the same kernel source, aim for 75GB-100GB. This space will be permanently occupied on your drive, so take this
-into consideration.
+其中 `50G` 相当于 50GB 的缓存。这需要编译一次。设置为 25 GB-100 GB 都会让编译速度明显增加
+(例如，1 小时的编译时间可以减少到 20 分钟。). 如果你只为一台设备编译, 那么 25 GB-50 GB 是个不错的选择。
+如果你编译好几台不同的设备，那么设置为 75 GB-100 GB 比较好。
+注意，这些缓存不会被自动移除。
 
-You can also enable the optional `ccache` compression. While this may involve a slight performance slowdown, it increases the number of files that fit in the cache. To enable it, run:
+你也可以启用 `ccache` 压缩。虽然这可能会让性能稍微减慢，但它增加了缓存中的文件数量。
+要打开的话运行:
 
 ```
 ccache -o compression=true
 ```
 
-{% include alerts/note.html content="If compression is enabled, the `ccache` size can be lower (aim for approximately 20GB for one device)." %}
+{% include alerts/note.html content="如果启用了压缩功能，`ccache` 的大小可以更小。" %}
 
 
 {% if device.current_branch >= 14 and device.current_branch < 16 %}
-### Configure jack
+### 配置 Jack
 
-[Jack](http://source.android.com/source/jack.html) is the currently used Java toolchain for building LineageOS 14.1 and 15.1. It is known to run out of memory often if not configured correctly - a simple fix is to run this command:
+[Jack](http://source.android.com/source/jack.html) 是用于编译 LineageOS 14.1 和 15.1 的 Java 工具链。 众所周知，如果配置不正确，它的内存会经常耗尽。- 一个简单的解决方法是运行这个命令:
 
 ```
 export ANDROID_JACK_VM_ARGS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4G"
 ```
 
-Adding that command to your `~/.bashrc` file will automatically configure Jack to allocate a sufficient amount of memory (in this case, 4GB).
+把这个命令加入到 `~/.bashrc` 将自动配置 Jack 以分配足够的内存数量。
 {% endif %}

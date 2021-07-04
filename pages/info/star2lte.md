@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about star2lte
+title: 关于 star2lte
 folder: info
 layout: deviceinfo
 permalink: /devices/star2lte/

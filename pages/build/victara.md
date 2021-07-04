@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for victara
+title: 编译 LineageOS 给 victara
 folder: build
 permalink: /devices/victara/build
 device: victara

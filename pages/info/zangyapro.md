@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about zangyapro
+title: 关于 zangyapro
 folder: info
 layout: deviceinfo
 permalink: /devices/zangyapro/

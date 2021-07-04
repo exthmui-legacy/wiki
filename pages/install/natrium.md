@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on natrium
+title: 安装 LineageOS 到 natrium
 folder: install
 permalink: /devices/natrium/install
 device: natrium

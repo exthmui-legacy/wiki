@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about lettuce
+title: 关于 lettuce
 folder: info
 layout: deviceinfo
 permalink: /devices/lettuce/

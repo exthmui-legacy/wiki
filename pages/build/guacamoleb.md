@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for guacamoleb
+title: 编译 LineageOS 给 guacamoleb
 folder: build
 permalink: /devices/guacamoleb/build
 device: guacamoleb

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for dragon
+title: 编译 LineageOS 给 dragon
 folder: build
 permalink: /devices/dragon/build
 device: dragon

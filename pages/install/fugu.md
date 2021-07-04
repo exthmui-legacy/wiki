@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on fugu
+title: 安装 LineageOS 到 fugu
 folder: install
 permalink: /devices/fugu/install
 device: fugu

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on zippo
+title: 安装 LineageOS 到 zippo
 folder: install
 permalink: /devices/zippo/install
 device: zippo

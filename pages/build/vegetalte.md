@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for vegetalte
+title: 编译 LineageOS 给 vegetalte
 folder: build
 permalink: /devices/vegetalte/build
 device: vegetalte

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on foster
+title: 安装 LineageOS 到 foster
 folder: install
 permalink: /devices/foster/install
 device: foster

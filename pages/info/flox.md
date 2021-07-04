@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about flox
+title: 关于 flox
 folder: info
 layout: deviceinfo
 permalink: /devices/flox/

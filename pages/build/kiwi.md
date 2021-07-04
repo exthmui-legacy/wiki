@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for kiwi
+title: 编译 LineageOS 给 kiwi
 folder: build
 permalink: /devices/kiwi/build
 device: kiwi

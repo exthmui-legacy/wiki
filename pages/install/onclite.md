@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on onclite
+title: 安装 LineageOS 到 onclite
 folder: install
 permalink: /devices/onclite/install
 device: onclite

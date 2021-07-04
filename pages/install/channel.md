@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on channel
+title: 安装 LineageOS 到 channel
 folder: install
 permalink: /devices/channel/install
 device: channel

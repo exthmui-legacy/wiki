@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about s3ve3gjv
+title: 关于 s3ve3gjv
 folder: info
 layout: deviceinfo
 permalink: /devices/s3ve3gjv/

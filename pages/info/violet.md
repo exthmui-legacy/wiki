@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about violet
+title: 关于 violet
 folder: info
 layout: deviceinfo
 permalink: /devices/violet/

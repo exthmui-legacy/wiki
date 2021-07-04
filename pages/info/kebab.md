@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about kebab
+title: 关于 kebab
 folder: info
 layout: deviceinfo
 permalink: /devices/kebab/

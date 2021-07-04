@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for lt03lte
+title: 编译 LineageOS 给 lt03lte
 folder: build
 permalink: /devices/lt03lte/build
 device: lt03lte

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for falcon
+title: 编译 LineageOS 给 falcon
 folder: build
 permalink: /devices/falcon/build
 device: falcon

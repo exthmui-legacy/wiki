@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for peregrine
+title: 编译 LineageOS 给 peregrine
 folder: build
 permalink: /devices/peregrine/build
 device: peregrine

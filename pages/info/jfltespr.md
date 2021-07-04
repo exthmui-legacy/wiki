@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about jfltespr
+title: 关于 jfltespr
 folder: info
 layout: deviceinfo
 permalink: /devices/jfltespr/

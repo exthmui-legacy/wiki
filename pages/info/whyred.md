@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about whyred
+title: 关于 whyred
 folder: info
 layout: deviceinfo
 permalink: /devices/whyred/

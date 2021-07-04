@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about gemini
+title: 关于 gemini
 folder: info
 layout: deviceinfo
 permalink: /devices/gemini/

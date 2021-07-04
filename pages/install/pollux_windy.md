@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on pollux_windy
+title: 安装 LineageOS 到 pollux_windy
 folder: install
 permalink: /devices/pollux_windy/install
 device: pollux_windy

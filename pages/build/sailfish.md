@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for sailfish
+title: 编译 LineageOS 给 sailfish
 folder: build
 permalink: /devices/sailfish/build
 device: sailfish

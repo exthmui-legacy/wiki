@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about herolte
+title: 关于 herolte
 folder: info
 layout: deviceinfo
 permalink: /devices/herolte/

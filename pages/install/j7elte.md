@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on j7elte
+title: 安装 LineageOS 到 j7elte
 folder: install
 permalink: /devices/j7elte/install
 device: j7elte

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on bardockpro
+title: 安装 LineageOS 到 bardockpro
 folder: install
 permalink: /devices/bardockpro/install
 device: bardockpro

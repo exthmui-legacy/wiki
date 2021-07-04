@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about {codename}
+title: 关于 {codename}
 folder: info
 layout: deviceinfo
 permalink: /devices/{codename}/

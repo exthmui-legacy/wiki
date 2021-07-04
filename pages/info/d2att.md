@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about d2att
+title: 关于 d2att
 folder: info
 layout: deviceinfo
 permalink: /devices/d2att/

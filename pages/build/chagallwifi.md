@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for chagallwifi
+title: 编译 LineageOS 给 chagallwifi
 folder: build
 permalink: /devices/chagallwifi/build
 device: chagallwifi

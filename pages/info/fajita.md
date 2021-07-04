@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about fajita
+title: 关于 fajita
 folder: info
 layout: deviceinfo
 permalink: /devices/fajita/

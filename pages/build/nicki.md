@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for nicki
+title: 编译 LineageOS 给 nicki
 folder: build
 permalink: /devices/nicki/build
 device: nicki

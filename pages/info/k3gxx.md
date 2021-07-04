@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about k3gxx
+title: 关于 k3gxx
 folder: info
 layout: deviceinfo
 permalink: /devices/k3gxx/

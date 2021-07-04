@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about condor
+title: 关于 condor
 folder: info
 layout: deviceinfo
 permalink: /devices/condor/

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on manta
+title: 安装 LineageOS 到 manta
 folder: install
 permalink: /devices/manta/install
 device: manta

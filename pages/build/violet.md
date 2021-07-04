@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for violet
+title: 编译 LineageOS 给 violet
 folder: build
 permalink: /devices/violet/build
 device: violet

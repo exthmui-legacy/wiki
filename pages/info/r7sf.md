@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about r7sf
+title: 关于 r7sf
 folder: info
 layout: deviceinfo
 permalink: /devices/r7sf/

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for mondrianwifi
+title: 编译 LineageOS 给 mondrianwifi
 folder: build
 permalink: /devices/mondrianwifi/build
 device: mondrianwifi

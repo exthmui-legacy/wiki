@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about zippo
+title: 关于 zippo
 folder: info
 layout: deviceinfo
 permalink: /devices/zippo/

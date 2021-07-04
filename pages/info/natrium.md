@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about natrium
+title: 关于 natrium
 folder: info
 layout: deviceinfo
 permalink: /devices/natrium/

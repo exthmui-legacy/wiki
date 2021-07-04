@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for berkeley
+title: 编译 LineageOS 给 berkeley
 folder: build
 permalink: /devices/berkeley/build
 device: berkeley

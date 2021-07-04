@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on tomato
+title: 安装 LineageOS 到 tomato
 folder: install
 permalink: /devices/tomato/install
 device: tomato

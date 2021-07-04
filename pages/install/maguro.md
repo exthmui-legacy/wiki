@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on maguro
+title: 安装 LineageOS 到 maguro
 folder: install
 permalink: /devices/maguro/install
 device: maguro

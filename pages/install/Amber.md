@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on Amber
+title: 安装 LineageOS 到 Amber
 folder: install
 permalink: /devices/Amber/install
 device: Amber

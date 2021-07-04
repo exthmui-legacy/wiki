@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for t0lte
+title: 编译 LineageOS 给 t0lte
 folder: build
 permalink: /devices/t0lte/build
 device: t0lte

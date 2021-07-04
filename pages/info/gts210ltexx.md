@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about gts210ltexx
+title: 关于 gts210ltexx
 folder: info
 layout: deviceinfo
 permalink: /devices/gts210ltexx/

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about chef
+title: 关于 chef
 folder: info
 layout: deviceinfo
 permalink: /devices/chef/

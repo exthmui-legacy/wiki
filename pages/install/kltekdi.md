@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on kltekdi
+title: 安装 LineageOS 到 kltekdi
 folder: install
 permalink: /devices/kltekdi/install
 device: kltekdi

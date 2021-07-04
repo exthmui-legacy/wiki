@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about coral
+title: 关于 coral
 folder: info
 layout: deviceinfo
 permalink: /devices/coral/

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for deb
+title: 编译 LineageOS 给 deb
 folder: build
 permalink: /devices/deb/build
 device: deb

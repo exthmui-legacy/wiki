@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about shamu
+title: 关于 shamu
 folder: info
 layout: deviceinfo
 permalink: /devices/shamu/

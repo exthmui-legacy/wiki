@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for ido
+title: 编译 LineageOS 给 ido
 folder: build
 permalink: /devices/ido/build
 device: ido

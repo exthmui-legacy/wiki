@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for YTX703F
+title: 编译 LineageOS 给 YTX703F
 folder: build
 permalink: /devices/YTX703F/build
 device: YTX703F

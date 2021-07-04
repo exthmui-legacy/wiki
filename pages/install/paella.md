@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on paella
+title: 安装 LineageOS 到 paella
 folder: install
 permalink: /devices/paella/install
 device: paella

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for gemini
+title: 编译 LineageOS 给 gemini
 folder: build
 permalink: /devices/gemini/build
 device: gemini

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on z2_plus
+title: 安装 LineageOS 到 z2_plus
 folder: install
 permalink: /devices/z2_plus/install
 device: z2_plus

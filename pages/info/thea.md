@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about thea
+title: 关于 thea
 folder: info
 layout: deviceinfo
 permalink: /devices/thea/

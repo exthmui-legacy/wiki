@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about lt02ltespr
+title: 关于 lt02ltespr
 folder: info
 layout: deviceinfo
 permalink: /devices/lt02ltespr/

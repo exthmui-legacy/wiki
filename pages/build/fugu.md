@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for fugu
+title: 编译 LineageOS 给 fugu
 folder: build
 permalink: /devices/fugu/build
 device: fugu

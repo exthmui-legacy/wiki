@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about pro1
+title: 关于 pro1
 folder: info
 layout: deviceinfo
 permalink: /devices/pro1/

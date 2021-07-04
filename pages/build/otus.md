@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for otus
+title: 编译 LineageOS 给 otus
 folder: build
 permalink: /devices/otus/build
 device: otus

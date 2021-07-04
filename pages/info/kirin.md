@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about kirin
+title: 关于 kirin
 folder: info
 layout: deviceinfo
 permalink: /devices/kirin/

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about I01WD
+title: 关于 I01WD
 folder: info
 layout: deviceinfo
 permalink: /devices/I01WD/

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for gtesqltespr
+title: 编译 LineageOS 给 gtesqltespr
 folder: build
 permalink: /devices/gtesqltespr/build
 device: gtesqltespr

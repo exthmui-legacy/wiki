@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for zenfone3
+title: 编译 LineageOS 给 zenfone3
 folder: build
 permalink: /devices/zenfone3/build
 device: zenfone3

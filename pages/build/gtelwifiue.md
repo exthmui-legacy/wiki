@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for gtelwifiue
+title: 编译 LineageOS 给 gtelwifiue
 folder: build
 permalink: /devices/gtelwifiue/build
 device: gtelwifiue

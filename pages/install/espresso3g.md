@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on espresso3g
+title: 安装 LineageOS 到 espresso3g
 folder: install
 permalink: /devices/espresso3g/install
 device: espresso3g

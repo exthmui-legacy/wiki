@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for osprey
+title: 编译 LineageOS 给 osprey
 folder: build
 permalink: /devices/osprey/build
 device: osprey

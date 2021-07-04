@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about serranodsdd
+title: 关于 serranodsdd
 folder: info
 layout: deviceinfo
 permalink: /devices/serranodsdd/

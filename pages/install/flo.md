@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on flo
+title: 安装 LineageOS 到 flo
 folder: install
 permalink: /devices/flo/install
 device: flo

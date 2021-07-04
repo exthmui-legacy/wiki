@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for racer
+title: 编译 LineageOS 给 racer
 folder: build
 permalink: /devices/racer/build
 device: racer

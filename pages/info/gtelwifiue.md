@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about gtelwifiue
+title: 关于 gtelwifiue
 folder: info
 layout: deviceinfo
 permalink: /devices/gtelwifiue/

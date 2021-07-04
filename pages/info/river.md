@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about river
+title: 关于 river
 folder: info
 layout: deviceinfo
 permalink: /devices/river/

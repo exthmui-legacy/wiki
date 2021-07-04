@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about piccolo
+title: 关于 piccolo
 folder: info
 layout: deviceinfo
 permalink: /devices/piccolo/

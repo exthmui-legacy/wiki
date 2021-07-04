@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on victara
+title: 安装 LineageOS 到 victara
 folder: install
 permalink: /devices/victara/install
 device: victara

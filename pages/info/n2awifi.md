@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about n2awifi
+title: 关于 n2awifi
 folder: info
 layout: deviceinfo
 permalink: /devices/n2awifi/

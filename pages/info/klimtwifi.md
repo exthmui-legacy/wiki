@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about klimtwifi
+title: 关于 klimtwifi
 folder: info
 layout: deviceinfo
 permalink: /devices/klimtwifi/

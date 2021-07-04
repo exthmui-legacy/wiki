@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about onyx
+title: 关于 onyx
 folder: info
 layout: deviceinfo
 permalink: /devices/onyx/

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about scorpio
+title: 关于 scorpio
 folder: info
 layout: deviceinfo
 permalink: /devices/scorpio/

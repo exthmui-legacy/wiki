@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about avicii
+title: 关于 avicii
 folder: info
 layout: deviceinfo
 permalink: /devices/avicii/

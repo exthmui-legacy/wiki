@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on deb
+title: 安装 LineageOS 到 deb
 folder: install
 permalink: /devices/deb/install
 device: deb

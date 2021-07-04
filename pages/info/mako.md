@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about mako
+title: 关于 mako
 folder: info
 layout: deviceinfo
 permalink: /devices/mako/

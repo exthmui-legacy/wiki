@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about jfltexx
+title: 关于 jfltexx
 folder: info
 layout: deviceinfo
 permalink: /devices/jfltexx/

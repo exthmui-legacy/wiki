@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about peach
+title: 关于 peach
 folder: info
 layout: deviceinfo
 permalink: /devices/peach/

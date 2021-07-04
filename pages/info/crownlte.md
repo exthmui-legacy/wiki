@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about crownlte
+title: 关于 crownlte
 folder: info
 layout: deviceinfo
 permalink: /devices/crownlte/

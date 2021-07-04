@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about pme
+title: 关于 pme
 folder: info
 layout: deviceinfo
 permalink: /devices/pme/

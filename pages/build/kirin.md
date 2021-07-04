@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for kirin
+title: 编译 LineageOS 给 kirin
 folder: build
 permalink: /devices/kirin/build
 device: kirin

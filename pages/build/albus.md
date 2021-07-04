@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for albus
+title: 编译 LineageOS 给 albus
 folder: build
 permalink: /devices/albus/build
 device: albus

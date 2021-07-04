@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about tissot
+title: 关于 tissot
 folder: info
 layout: deviceinfo
 permalink: /devices/tissot/

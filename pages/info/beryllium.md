@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about beryllium
+title: 关于 beryllium
 folder: info
 layout: deviceinfo
 permalink: /devices/beryllium/

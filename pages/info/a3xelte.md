@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about a3xelte
+title: 关于 a3xelte
 folder: info
 layout: deviceinfo
 permalink: /devices/a3xelte/

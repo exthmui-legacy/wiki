@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for seed
+title: 编译 LineageOS 给 seed
 folder: build
 permalink: /devices/seed/build
 device: seed

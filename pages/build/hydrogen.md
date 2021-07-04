@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for hydrogen
+title: 编译 LineageOS 给 hydrogen
 folder: build
 permalink: /devices/hydrogen/build
 device: hydrogen

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for crownlte
+title: 编译 LineageOS 给 crownlte
 folder: build
 permalink: /devices/crownlte/build
 device: crownlte

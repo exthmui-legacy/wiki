@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about ivy
+title: 关于 ivy
 folder: info
 layout: deviceinfo
 permalink: /devices/ivy/

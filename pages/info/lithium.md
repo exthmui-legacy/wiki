@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about lithium
+title: 关于 lithium
 folder: info
 layout: deviceinfo
 permalink: /devices/lithium/

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on jagnm
+title: 安装 LineageOS 到 jagnm
 folder: install
 permalink: /devices/jagnm/install
 device: jagnm

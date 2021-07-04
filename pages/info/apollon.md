@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about apollon
+title: 关于 apollon
 folder: info
 layout: deviceinfo
 permalink: /devices/apollon/

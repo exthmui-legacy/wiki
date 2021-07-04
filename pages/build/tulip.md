@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for tulip
+title: 编译 LineageOS 给 tulip
 folder: build
 permalink: /devices/tulip/build
 device: tulip

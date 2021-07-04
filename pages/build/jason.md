@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for jason
+title: 编译 LineageOS 给 jason
 folder: build
 permalink: /devices/jason/build
 device: jason

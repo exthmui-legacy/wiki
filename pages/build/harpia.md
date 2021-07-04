@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for harpia
+title: 编译 LineageOS 给 harpia
 folder: build
 permalink: /devices/harpia/build
 device: harpia

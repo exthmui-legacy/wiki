@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on peach
+title: 安装 LineageOS 到 peach
 folder: install
 permalink: /devices/peach/install
 device: peach

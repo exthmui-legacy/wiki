@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for davinci
+title: 编译 LineageOS 给 davinci
 folder: build
 permalink: /devices/davinci/build
 device: davinci

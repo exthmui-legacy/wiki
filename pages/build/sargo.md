@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for sargo
+title: 编译 LineageOS 给 sargo
 folder: build
 permalink: /devices/sargo/build
 device: sargo

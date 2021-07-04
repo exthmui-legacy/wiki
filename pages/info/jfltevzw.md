@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about jfltevzw
+title: 关于 jfltevzw
 folder: info
 layout: deviceinfo
 permalink: /devices/jfltevzw/

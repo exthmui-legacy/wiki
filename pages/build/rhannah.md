@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for rhannah
+title: 编译 LineageOS 给 rhannah
 folder: build
 permalink: /devices/rhannah/build
 device: rhannah

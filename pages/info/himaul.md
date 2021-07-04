@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about himaul
+title: 关于 himaul
 folder: info
 layout: deviceinfo
 permalink: /devices/himaul/

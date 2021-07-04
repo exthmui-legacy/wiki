@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about jalebi
+title: 关于 jalebi
 folder: info
 layout: deviceinfo
 permalink: /devices/jalebi/

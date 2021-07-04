@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about instantnoodlep
+title: 关于 instantnoodlep
 folder: info
 layout: deviceinfo
 permalink: /devices/instantnoodlep/

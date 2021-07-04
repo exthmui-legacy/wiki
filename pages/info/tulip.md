@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about tulip
+title: 关于 tulip
 folder: info
 layout: deviceinfo
 permalink: /devices/tulip/

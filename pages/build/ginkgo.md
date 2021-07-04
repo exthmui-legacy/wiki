@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for ginkgo
+title: 编译 LineageOS 给 ginkgo
 folder: build
 permalink: /devices/ginkgo/build
 device: ginkgo

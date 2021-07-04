@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about hydrogen
+title: 关于 hydrogen
 folder: info
 layout: deviceinfo
 permalink: /devices/hydrogen/

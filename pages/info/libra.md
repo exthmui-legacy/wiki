@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about libra
+title: 关于 libra
 folder: info
 layout: deviceinfo
 permalink: /devices/libra/

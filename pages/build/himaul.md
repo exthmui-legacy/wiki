@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for himaul
+title: 编译 LineageOS 给 himaul
 folder: build
 permalink: /devices/himaul/build
 device: himaul

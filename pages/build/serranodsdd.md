@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for serranodsdd
+title: 编译 LineageOS 给 serranodsdd
 folder: build
 permalink: /devices/serranodsdd/build
 device: serranodsdd

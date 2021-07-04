@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for kltesprsports
+title: 编译 LineageOS 给 kltesprsports
 folder: build
 permalink: /devices/kltesprsports/build
 device: kltesprsports

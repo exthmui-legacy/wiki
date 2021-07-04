@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about kccat6
+title: 关于 kccat6
 folder: info
 layout: deviceinfo
 permalink: /devices/kccat6/

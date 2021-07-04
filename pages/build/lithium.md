@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for lithium
+title: 编译 LineageOS 给 lithium
 folder: build
 permalink: /devices/lithium/build
 device: lithium

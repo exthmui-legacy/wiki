@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for taimen
+title: 编译 LineageOS 给 taimen
 folder: build
 permalink: /devices/taimen/build
 device: taimen

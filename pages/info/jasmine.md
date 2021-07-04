@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about jasmine
+title: 关于 jasmine
 folder: info
 layout: deviceinfo
 permalink: /devices/jasmine/

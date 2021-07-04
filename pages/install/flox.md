@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on flox
+title: 安装 LineageOS 到 flox
 folder: install
 permalink: /devices/flox/install
 device: flox

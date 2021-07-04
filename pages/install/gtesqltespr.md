@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on gtesqltespr
+title: 安装 LineageOS 到 gtesqltespr
 folder: install
 permalink: /devices/gtesqltespr/install
 device: gtesqltespr

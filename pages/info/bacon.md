@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about bacon
+title: 关于 bacon
 folder: info
 layout: deviceinfo
 permalink: /devices/bacon/

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on redfin
+title: 安装 LineageOS 到 redfin
 folder: install
 permalink: /devices/redfin/install
 device: redfin

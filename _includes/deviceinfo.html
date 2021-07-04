@@ -15,7 +15,7 @@
     </tr>
 
     <tr>
-      <th scope="row">Released</th>
+      <th scope="row">发售日期</th>
       <td>
         {%- if device.release.first -%}
           {%- for model in device.release -%}
@@ -35,21 +35,21 @@
     <tr>
     {% if device.carrier %}
     <tr>
-      <th scope="col"">Carrier</td>
+      <th scope="col"">运营商</td>
       <td>{{ device.carrier }}</td>
     </tr>
     {% endif %}
     </tr>
 
     <tr>
-        <th scope="row" colspan="2">Specifications</td>
+        <th scope="row" colspan="2">参数</td>
     </tr>
     <tr>
         <th scope="row">SoC</td>
         <td>{{ device.soc }}</td>
     </tr>
     <tr>
-        <th scope="row">RAM</td>
+        <th scope="row">运行内存</td>
         <td>{{ device.ram }}</td>
     </tr>
     <tr>
@@ -72,7 +72,7 @@
         </td>
     </tr>
     <tr>
-        <th scope="row">Architecture</td>
+        <th scope="row">架构</td>
         <td>
             {%- if device.architecture.cpu -%}
             CPU: {{ device.architecture.cpu }}<br/>
@@ -88,7 +88,7 @@
     </tr>
     {% if device.network != 'None' %}
     <tr>
-        <th scope="row">Network</td>
+        <th scope="row">网络</td>
         <td>
             <ul>
                 {% for el in device.network %}
@@ -99,18 +99,18 @@
     </tr>
     {% endif %}
     <tr>
-        <th scope="row">Storage</td>
+        <th scope="row">存储空间</td>
         <td>{{ device.storage }}</td>
     </tr>
     {% if device.sdcard %}
     <tr>
-        <th scope="row">SD card</td>
+        <th scope="row">存储卡</td>
         <td>{{ device.sdcard }}</td>
     </tr>
     {% endif %}
     {% if device.screen != 'None' %}
     <tr>
-        <th scope="row">Screen</td>
+        <th scope="row">屏幕</td>
         <td>
             {{ device.screen }}<br>
             {{ device.screen_res }} ({{ device.screen_ppi }} PPI)<br>
@@ -120,7 +120,7 @@
     {% endif %}
     {% if device.bluetooth %}
     <tr>
-        <th scope="row">Bluetooth</td>
+        <th scope="row">蓝牙</td>
         <td>
             {% if device.bluetooth.profiles -%}
                 {{ device.bluetooth.spec }} with {{ device.bluetooth.profiles | join: ', ' }}
@@ -138,7 +138,7 @@
     {% endif %}
     {% if device.peripherals != 'None' %}
     <tr>
-        <th scope="row">Peripherals</td>
+        <th scope="row">传感器/附加功能</td>
         <td>
             {%- if device.peripherals.first.size == 1 %}
                 {%- for model in device.peripherals %}
@@ -158,7 +158,7 @@
     {% endif %}
     {% if device.cameras and device.cameras.size > 0 %}
     <tr>
-        <th scope="row">Cameras</td>
+        <th scope="row">相机</td>
         <td>{{ device.cameras | size }}
             <ul>
                 {% for el in device.cameras %}
@@ -177,13 +177,13 @@
     {% endif %}
     {% if device.height and device.width and device.depth %}
     <tr>
-        <th scope="row">Dimensions</td>
+        <th scope="row">尺寸</td>
         <td>{{ device.height }} (h)<br>{{ device.width }} (w)<br>{{ device.depth }} (d)</td>
     </tr>
     {% endif %}
     {%- if device.battery != 'None' %}
     <tr>
-        <th scope="row">Battery</td>
+        <th scope="row">电池</td>
         <td>
             {% if device.battery.first.size == 1 -%}
             {%- comment %}The size of "first" will be 1 when there is a list of models{% endcomment -%}
@@ -205,10 +205,10 @@
     <!-- lineage info -->
     {% if device.maintainers != empty %}
     <tr>
-        <th scope="row" colspan="2">LineageOS info</td>
+        <th scope="row" colspan="2">LineageOS 信息</td>
     </tr>
     <tr>
-        <th scope="row">Maintainers</td>
+        <th scope="row">维护者</td>
         <td>
             <ul>
                 {% for el in device.maintainers %}
@@ -219,7 +219,7 @@
     </tr>
     {% if device.models %}
     <tr>
-        <th scope="row">Supported models</td>
+        <th scope="row">支持型号</td>
         <td>
             <ul>
             {% for model in device.models %}
@@ -230,7 +230,7 @@
     </tr>
     {% endif %}
     <tr>
-        <th scope="row">Supported versions</td>
+        <th scope="row">支持版本</td>
         <td>
             <ul>
                 {% for el in device.versions %}

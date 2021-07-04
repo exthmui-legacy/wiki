@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for odin
+title: 编译 LineageOS 给 odin
 folder: build
 permalink: /devices/odin/build
 device: odin

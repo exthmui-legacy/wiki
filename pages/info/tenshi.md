@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about tenshi
+title: 关于 tenshi
 folder: info
 layout: deviceinfo
 permalink: /devices/tenshi/

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on jflteatt
+title: 安装 LineageOS 到 jflteatt
 folder: install
 permalink: /devices/jflteatt/install
 device: jflteatt

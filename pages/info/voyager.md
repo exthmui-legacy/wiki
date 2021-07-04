@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about voyager
+title: 关于 voyager
 folder: info
 layout: deviceinfo
 permalink: /devices/voyager/

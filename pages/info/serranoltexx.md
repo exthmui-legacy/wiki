@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about serranoltexx
+title: 关于 serranoltexx
 folder: info
 layout: deviceinfo
 permalink: /devices/serranoltexx/

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for flounder
+title: 编译 LineageOS 给 flounder
 folder: build
 permalink: /devices/flounder/build
 device: flounder

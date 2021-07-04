@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for jalebi
+title: 编译 LineageOS 给 jalebi
 folder: build
 permalink: /devices/jalebi/build
 device: jalebi

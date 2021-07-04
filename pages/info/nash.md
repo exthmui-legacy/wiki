@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about nash
+title: 关于 nash
 folder: info
 layout: deviceinfo
 permalink: /devices/nash/

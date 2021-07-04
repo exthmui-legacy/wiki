@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about dogo
+title: 关于 dogo
 folder: info
 layout: deviceinfo
 permalink: /devices/dogo/

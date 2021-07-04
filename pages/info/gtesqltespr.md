@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about gtesqltespr
+title: 关于 gtesqltespr
 folder: info
 layout: deviceinfo
 permalink: /devices/gtesqltespr/

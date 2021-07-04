@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about surnia
+title: 关于 surnia
 folder: info
 layout: deviceinfo
 permalink: /devices/surnia/

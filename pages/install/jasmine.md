@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on jasmine
+title: 安装 LineageOS 到 jasmine
 folder: install
 permalink: /devices/jasmine/install
 device: jasmine

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on hammerhead
+title: 安装 LineageOS 到 hammerhead
 folder: install
 permalink: /devices/hammerhead/install
 device: hammerhead

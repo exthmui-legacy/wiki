@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for jagnm
+title: 编译 LineageOS 给 jagnm
 folder: build
 permalink: /devices/jagnm/build
 device: jagnm

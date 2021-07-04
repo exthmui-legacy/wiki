@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for blueline
+title: 编译 LineageOS 给 blueline
 folder: build
 permalink: /devices/blueline/build
 device: blueline

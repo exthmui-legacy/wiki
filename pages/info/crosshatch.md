@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about crosshatch
+title: 关于 crosshatch
 folder: info
 layout: deviceinfo
 permalink: /devices/crosshatch/

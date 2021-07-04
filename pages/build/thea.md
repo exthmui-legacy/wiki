@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for thea
+title: 编译 LineageOS 给 thea
 folder: build
 permalink: /devices/thea/build
 device: thea

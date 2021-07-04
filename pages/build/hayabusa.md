@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for hayabusa
+title: 编译 LineageOS 给 hayabusa
 folder: build
 permalink: /devices/hayabusa/build
 device: hayabusa

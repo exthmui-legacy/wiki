@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on chef
+title: 安装 LineageOS 到 chef
 folder: install
 permalink: /devices/chef/install
 device: chef

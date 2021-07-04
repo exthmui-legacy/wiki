@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for maserati
+title: 编译 LineageOS 给 maserati
 folder: build
 permalink: /devices/maserati/build
 device: maserati

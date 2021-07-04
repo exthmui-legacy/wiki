@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about hlte
+title: 关于 hlte
 folder: info
 layout: deviceinfo
 permalink: /devices/hlte/

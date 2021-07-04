@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about klte
+title: 关于 klte
 folder: info
 layout: deviceinfo
 permalink: /devices/klte/

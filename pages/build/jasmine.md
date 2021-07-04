@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for jasmine
+title: 编译 LineageOS 给 jasmine
 folder: build
 permalink: /devices/jasmine/build
 device: jasmine

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about taoshan
+title: 关于 taoshan
 folder: info
 layout: deviceinfo
 permalink: /devices/taoshan/

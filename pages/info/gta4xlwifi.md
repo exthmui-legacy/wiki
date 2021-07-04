@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about gta4xlwifi
+title: 关于 gta4xlwifi
 folder: info
 layout: deviceinfo
 permalink: /devices/gta4xlwifi/

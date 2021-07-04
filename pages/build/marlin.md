@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for marlin
+title: 编译 LineageOS 给 marlin
 folder: build
 permalink: /devices/marlin/build
 device: marlin

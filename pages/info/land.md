@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about land
+title: 关于 land
 folder: info
 layout: deviceinfo
 permalink: /devices/land/

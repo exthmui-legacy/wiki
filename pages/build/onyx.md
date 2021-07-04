@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for onyx
+title: 编译 LineageOS 给 onyx
 folder: build
 permalink: /devices/onyx/build
 device: onyx

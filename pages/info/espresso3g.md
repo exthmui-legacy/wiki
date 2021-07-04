@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about espresso3g
+title: 关于 espresso3g
 folder: info
 layout: deviceinfo
 permalink: /devices/espresso3g/

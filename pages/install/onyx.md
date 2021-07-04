@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on onyx
+title: 安装 LineageOS 到 onyx
 folder: install
 permalink: /devices/onyx/install
 device: onyx

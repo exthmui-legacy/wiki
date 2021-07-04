@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about gts28vewifi
+title: 关于 gts28vewifi
 folder: info
 layout: deviceinfo
 permalink: /devices/gts28vewifi/

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for {codename}
+title: 编译 LineageOS 给 {codename}
 folder: build
 permalink: /devices/{codename}/build
 device: {codename}

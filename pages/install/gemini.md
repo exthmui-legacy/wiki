@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on gemini
+title: 安装 LineageOS 到 gemini
 folder: install
 permalink: /devices/gemini/install
 device: gemini

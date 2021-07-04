@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on angler
+title: 安装 LineageOS 到 angler
 folder: install
 permalink: /devices/angler/install
 device: angler

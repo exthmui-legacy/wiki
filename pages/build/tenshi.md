@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for tenshi
+title: 编译 LineageOS 给 tenshi
 folder: build
 permalink: /devices/tenshi/build
 device: tenshi

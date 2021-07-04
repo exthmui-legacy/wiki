@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on cancro
+title: 安装 LineageOS 到 cancro
 folder: install
 permalink: /devices/cancro/install
 device: cancro

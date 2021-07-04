@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on chagalllte
+title: 安装 LineageOS 到 chagalllte
 folder: install
 permalink: /devices/chagalllte/install
 device: chagalllte

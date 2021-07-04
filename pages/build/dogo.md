@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for dogo
+title: 编译 LineageOS 给 dogo
 folder: build
 permalink: /devices/dogo/build
 device: dogo

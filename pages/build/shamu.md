@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for shamu
+title: 编译 LineageOS 给 shamu
 folder: build
 permalink: /devices/shamu/build
 device: shamu

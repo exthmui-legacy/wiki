@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about j7elte
+title: 关于 j7elte
 folder: info
 layout: deviceinfo
 permalink: /devices/j7elte/

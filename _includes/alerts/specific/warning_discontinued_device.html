@@ -1,6 +1,5 @@
 {%- assign device = site.data.devices[page.device] -%}
 {% capture content -%}
-The {{ device.vendor }} {{ device.name }} is no longer maintained.
-A build guide is available for developers that would like to make private builds, or even restart official support.
+{{ device.vendor }} {{ device.name }} 已不在继续提供后继更新支持，编译指南可供那些想自己编译，或者重新启动官方支持的开发者使用。
 {%- endcapture %}
 {% include alerts/warning.html content=content %}

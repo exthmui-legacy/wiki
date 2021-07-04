@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for sagit
+title: 编译 LineageOS 给 sagit
 folder: build
 permalink: /devices/sagit/build
 device: sagit

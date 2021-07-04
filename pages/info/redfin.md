@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about redfin
+title: 关于 redfin
 folder: info
 layout: deviceinfo
 permalink: /devices/redfin/

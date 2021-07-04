@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for bullhead
+title: 编译 LineageOS 给 bullhead
 folder: build
 permalink: /devices/bullhead/build
 device: bullhead

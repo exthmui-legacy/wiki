@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on bullhead
+title: 安装 LineageOS 到 bullhead
 folder: install
 permalink: /devices/bullhead/install
 device: bullhead

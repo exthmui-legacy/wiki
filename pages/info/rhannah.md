@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about rhannah
+title: 关于 rhannah
 folder: info
 layout: deviceinfo
 permalink: /devices/rhannah/

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about flounder_lte
+title: 关于 flounder_lte
 folder: info
 layout: deviceinfo
 permalink: /devices/flounder_lte/

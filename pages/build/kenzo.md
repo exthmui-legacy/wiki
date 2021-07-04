@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for kenzo
+title: 编译 LineageOS 给 kenzo
 folder: build
 permalink: /devices/kenzo/build
 device: kenzo

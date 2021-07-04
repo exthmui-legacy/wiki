@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about peregrine
+title: 关于 peregrine
 folder: info
 layout: deviceinfo
 permalink: /devices/peregrine/

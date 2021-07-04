@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on akari
+title: 安装 LineageOS 到 akari
 folder: install
 permalink: /devices/akari/install
 device: akari

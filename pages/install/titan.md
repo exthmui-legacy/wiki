@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on titan
+title: 安装 LineageOS 到 titan
 folder: install
 permalink: /devices/titan/install
 device: titan

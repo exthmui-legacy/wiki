@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for star2lte
+title: 编译 LineageOS 给 star2lte
 folder: build
 permalink: /devices/star2lte/build
 device: star2lte

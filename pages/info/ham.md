@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about ham
+title: 关于 ham
 folder: info
 layout: deviceinfo
 permalink: /devices/ham/

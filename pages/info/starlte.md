@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about starlte
+title: 关于 starlte
 folder: info
 layout: deviceinfo
 permalink: /devices/starlte/

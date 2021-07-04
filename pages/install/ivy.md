@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on ivy
+title: 安装 LineageOS 到 ivy
 folder: install
 permalink: /devices/ivy/install
 device: ivy

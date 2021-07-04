@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for jag3gds
+title: 编译 LineageOS 给 jag3gds
 folder: build
 permalink: /devices/jag3gds/build
 device: jag3gds

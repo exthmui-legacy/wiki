@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about discovery
+title: 关于 discovery
 folder: info
 layout: deviceinfo
 permalink: /devices/discovery/

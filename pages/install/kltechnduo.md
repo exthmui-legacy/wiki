@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on kltechnduo
+title: 安装 LineageOS 到 kltechnduo
 folder: install
 permalink: /devices/kltechnduo/install
 device: kltechnduo

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for d2spr
+title: 编译 LineageOS 给 d2spr
 folder: build
 permalink: /devices/d2spr/build
 device: d2spr

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about athene
+title: 关于 athene
 folder: info
 layout: deviceinfo
 permalink: /devices/athene/

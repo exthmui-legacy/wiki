@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about pioneer
+title: 关于 pioneer
 folder: info
 layout: deviceinfo
 permalink: /devices/pioneer/

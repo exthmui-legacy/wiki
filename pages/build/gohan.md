@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for gohan
+title: 编译 LineageOS 给 gohan
 folder: build
 permalink: /devices/gohan/build
 device: gohan

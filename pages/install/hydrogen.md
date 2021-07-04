@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on hydrogen
+title: 安装 LineageOS 到 hydrogen
 folder: install
 permalink: /devices/hydrogen/install
 device: hydrogen

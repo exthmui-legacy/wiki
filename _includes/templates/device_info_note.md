@@ -3,5 +3,5 @@
 
 * {{ device.note_content }}
 {% if device.note_link and device.note_url and device.note_link != "" and device.note_url != "" %}
-* **Link**: [{{ device.note_link }}]({{ device.note_url }})
+* **链接**: [{{ device.note_link }}]({{ device.note_url }})
 {% endif %}

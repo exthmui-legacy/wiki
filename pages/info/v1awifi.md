@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about v1awifi
+title: 关于 v1awifi
 folder: info
 layout: deviceinfo
 permalink: /devices/v1awifi/

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for guacamole
+title: 编译 LineageOS 给 guacamole
 folder: build
 permalink: /devices/guacamole/build
 device: guacamole

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about victara
+title: 关于 victara
 folder: info
 layout: deviceinfo
 permalink: /devices/victara/

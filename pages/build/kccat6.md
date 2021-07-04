@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for kccat6
+title: 编译 LineageOS 给 kccat6
 folder: build
 permalink: /devices/kccat6/build
 device: kccat6

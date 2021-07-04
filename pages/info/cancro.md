@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about cancro
+title: 关于 cancro
 folder: info
 layout: deviceinfo
 permalink: /devices/cancro/

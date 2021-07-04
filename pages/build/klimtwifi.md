@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for klimtwifi
+title: 编译 LineageOS 给 klimtwifi
 folder: build
 permalink: /devices/klimtwifi/build
 device: klimtwifi

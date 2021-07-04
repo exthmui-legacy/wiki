@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about guacamoleb
+title: 关于 guacamoleb
 folder: info
 layout: deviceinfo
 permalink: /devices/guacamoleb/

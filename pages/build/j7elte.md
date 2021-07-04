@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for j7elte
+title: 编译 LineageOS 给 j7elte
 folder: build
 permalink: /devices/j7elte/build
 device: j7elte

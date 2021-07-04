@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for akatsuki
+title: 编译 LineageOS 给 akatsuki
 folder: build
 permalink: /devices/akatsuki/build
 device: akatsuki

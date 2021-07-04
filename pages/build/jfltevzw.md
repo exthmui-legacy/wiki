@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Build for jfltevzw
+title: 编译 LineageOS 给 jfltevzw
 folder: build
 permalink: /devices/jfltevzw/build
 device: jfltevzw

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on t6vzw
+title: 安装 LineageOS 到 t6vzw
 folder: install
 permalink: /devices/t6vzw/install
 device: t6vzw

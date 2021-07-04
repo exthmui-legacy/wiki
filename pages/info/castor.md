@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about castor
+title: 关于 castor
 folder: info
 layout: deviceinfo
 permalink: /devices/castor/

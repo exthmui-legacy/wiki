@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on gts210wifi
+title: 安装 LineageOS 到 gts210wifi
 folder: install
 permalink: /devices/gts210wifi/install
 device: gts210wifi

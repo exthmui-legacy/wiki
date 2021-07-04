@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about hotdogb
+title: 关于 hotdogb
 folder: info
 layout: deviceinfo
 permalink: /devices/hotdogb/

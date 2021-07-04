@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Info about FP2
+title: 关于 FP2
 folder: info
 layout: deviceinfo
 permalink: /devices/FP2/

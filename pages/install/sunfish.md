@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on sunfish
+title: 安装 LineageOS 到 sunfish
 folder: install
 permalink: /devices/sunfish/install
 device: sunfish
