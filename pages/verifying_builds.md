@@ -6,7 +6,7 @@ permalink: verifying-builds.html
 toc: false
 ---
 
-All official builds from LineageOS are signed with our private keys. You can verify whether a build has been signed with our keys by following these steps:
+All official builds from exTHmUI are signed with our private keys. You can verify whether a build has been signed with our keys by following these steps:
 
 {% include alerts/note.html content="To go ahead with the verification, `git`, `python3-pip`, and `python3` are required." %}
 

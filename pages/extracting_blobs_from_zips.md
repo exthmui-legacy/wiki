@@ -1,11 +1,11 @@
 ---
 sidebar: home_sidebar
-title: Extracting proprietary blobs from LineageOS zip files
+title: Extracting proprietary blobs from exTHmUI zip files
 permalink: extracting_blobs_from_zips.html
 ---
 ## Introduction
 
-Proprietary blobs can be extracted either from a device already running LineageOS or from a LineageOS installable zip. In this guide we will describe the steps required to extract proprietary files from installable zips.
+Proprietary blobs can be extracted either from a device already running exTHmUI or from a exTHmUI installable zip. In this guide we will describe the steps required to extract proprietary files from installable zips.
 
 Before beginning, it is required to know the difference between the types of OTAs:
 
@@ -36,14 +36,14 @@ mkdir ~/android/system_dump/
 cd ~/android/system_dump/
 ```
 
-Extract `system.transfer.list` and `system.new.dat.br` or `system.new.dat` from the installable LineageOS zip:
+Extract `system.transfer.list` and `system.new.dat.br` or `system.new.dat` from the installable exTHmUI zip:
 
 ```
 unzip path/to/lineage-*.zip system.transfer.list system.new.dat*
 ```
 where `path/to/` is the path to the installable zip.
 
-If your OTA includes `vendor.transfer.list` and `vendor.new.dat.br` or `vendor.new.dat` (other others), extract them from the installable LineageOS zip as well:
+If your OTA includes `vendor.transfer.list` and `vendor.new.dat.br` or `vendor.new.dat` (other others), extract them from the installable exTHmUI zip as well:
 
 ```
 unzip path/to/lineage-*.zip vendor.transfer.list vendor.new.dat*
@@ -163,7 +163,7 @@ mkdir ~/android/system_dump/
 cd ~/android/system_dump/
 ```
 
-Extract the `payload.bin` file from the LineageOS installation zip file:
+Extract the `payload.bin` file from the exTHmUI installation zip file:
 
 ```
 unzip /path/to/lineage-*.zip payload.bin
@@ -180,12 +180,12 @@ sudo apt-get install python-protobuf
 
 You can now extract the `.img` files from the payload:
 
-* If you have a LineageOS build tree checked out already, you can just run the script to extract the payload:
+* If you have a exTHmUI build tree checked out already, you can just run the script to extract the payload:
   ```
   python /path/to/lineage-tree/lineage/scripts/update-payload-extractor/extract.py payload.bin --output_dir ./
   ```
 
-* If you don't have a LineageOS build tree checked out, you can clone our scripts repo, and then run the script to extract the payload:
+* If you don't have a exTHmUI build tree checked out, you can clone our scripts repo, and then run the script to extract the payload:
   ```
   git clone https://github.com/LineageOS/scripts
   python /path/to/scripts/update-payload-extractor/extract.py payload.bin --output_dir ./

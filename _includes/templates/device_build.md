@@ -3,9 +3,9 @@
 
 ## 简介
 
-这些说明希望能帮助你的 {{ device.vendor }} {{ device.name }}, 解锁 Bootloader (如果需要的话), 然后为您的设备下载所需的工具，以及 LineageOS 的最新源码 (基于 Google 的 Android)。使用这些，你可以编译一个 LineageOS 安装包和一个 LineageOS Recovery，并将它们安装在你的设备上。
+这些说明希望能帮助你的 {{ device.vendor }} {{ device.name }}, 解锁 Bootloader (如果需要的话), 然后为您的设备下载所需的工具，以及 exTHmUI 的最新源码 (基于 Google 的 Android)。使用这些，你可以编译一个 exTHmUI 安装包和一个 exTHmUI Recovery，并将它们安装在你的设备上。
 
-很难说编译 LineageOS 需要多少经验。本指南肯定不适合一点都不懂人，但这些步骤也不是专门写给开发大佬的。有些人可能不会绝对有任何困难，可以轻松完成这些步骤。另一些人可能会在最基本的操作上困惑。
+很难说编译 exTHmUI 需要多少经验。本指南肯定不适合一点都不懂人，但这些步骤也不是专门写给开发大佬的。有些人可能不会绝对有任何困难，可以轻松完成这些步骤。另一些人可能会在最基本的操作上困惑。
 
 记住，你要承担编译的所有风险，但如果成功的话，你会感觉自己很满足。
 而且你一旦学会编译 Android，你不需要等待任何官方版本，你可以随时从源码中编译一个完整的操作系统并将其安装到自己的设备上。
@@ -14,7 +14,7 @@
 
 {% include templates/device_build_before_init.md %}
 
-### 同步 LineageOS 源码
+### 同步 exTHmUI 源码
 
 {% if device.maintainers != empty %}
 以下是 {{ device.vendor }} {{ device.name }} 官方支持的分支:
@@ -23,11 +23,7 @@
 {% endif %}
 
 {% for version in device.versions %}
-{% if version < 15 %}
-* cm-{{ version }}
-{% else %}
-* lineage-{{ version }}
-{% endif %}
+* exthm-{{ version }}
 {% endfor %}
 
 {% assign current_branch = device.current_branch %}
@@ -49,7 +45,7 @@ breakfast {{ device.codename }}
 ### 提取专有二进制文件
 
 {% capture extracting_blobs_from_zips %}
-这一步需要有一个已经运行你需要编译版本的 LineageOS 的设备，如果您无法完成此步骤，请转到[从 zip 包中提取专有二进制文件]({{ "extracting_blobs_from_zips.html" | relative_url }}).
+这一步需要有一个已经运行你需要编译版本的 exTHmUI 的设备，如果您无法完成此步骤，请转到[从 zip 包中提取专有二进制文件]({{ "extracting_blobs_from_zips.html" | relative_url }}).
 {% endcapture %}
 {% include alerts/note.html content=extracting_blobs_from_zips %}
 
@@ -89,12 +85,8 @@ cd $OUT
 在这个目录你会发现所有被编译出来的文件。最重要的的两个文件是:
 
 {% if device.is_ab_device %}
-1. `boot.img`, 这是 LineageOS 的启动镜像, 并包含 Recovery。
+1. `boot.img`, 这是 exTHmUI 的启动镜像, 并包含 Recovery。
 {% else %}
-1. `recovery.img`, 这是 LineageOS 的 Recovery。
+1. `recovery.img`, 这是 exTHmUI 的 Recovery。
 {% endif %}
-2. `lineage-{{ device.current_branch }}-{{ site.time | date: "%Y%m%d" }}-UNOFFICIAL-{{ device.codename }}.zip`, 这是 LineageOS 的安装包
-
-## 获得帮助
-
-* [#LineageOS-dev](https://kiwiirc.com/nextclient/irc.libera.chat#lineageos-dev) - 一个有帮助的实时聊天室。
+2. `exthm-{{ device.current_branch }}.0-{{ site.time | date: "%Y%m%d" }}-NUCLEAR-SNAPSHOT-{{ device.codename }}.zip`, 这是 exTHmUI 的安装包

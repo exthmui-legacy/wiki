@@ -1,0 +1,41 @@
+architecture: arm
+battery: {removable: True, capacity: 2000, tech: 'Li-Po'}
+bluetooth: {spec: 4.0, profiles: [A2DP]}
+cameras:
+- {flash: 'LED', info: '8 MP'}
+- {flash: '', info: '2 MP'}
+codename: aries
+cpu: Krait
+cpu_cores: '2'
+cpu_freq: 1.5GHz
+current_branch: 10
+depth: 10.2 mm (0.40 in)
+download_boot: 将设备关机, 按住 <kbd>音量下</kbd> + <kbd>电源键</kbd>.
+gpu: Adreno 320
+height: 62 mm (2.44 in)
+image: aries.png
+install_method: fastboot_xiaomi
+kernel: android_kernel_xiaomi_aries
+maintainers: []
+models: [Mi 2, Mi 2S, Mi 2C, Mi 2SC]
+name: MI 2(S)
+network: [2G GSM, 3G UMTS]
+no_oem_unlock_switch: true
+peripherals: [Accelerometer, gyro, proximity, compass, barometer]
+ram: 2 GB
+recovery_boot: 将设备关机, 按住 <kbd>音量上</kbd> + <kbd>电源键</kbd>.
+release: 2012-08-16
+screen: 126 mm (4.69 in)
+screen_ppi: '401/534'
+screen_res: 720x1280
+screen_tech: IPS LCD
+soc: Qualcomm APQ8064 Snapdragon S4 Pro
+storage: 16/32 GB
+tree: android_device_oppo_aries
+type: phone
+uses_twrp: true
+vendor: Xiaomi
+vendor_short: xiaomi
+versions: [10]
+width: 62 mm (2.44 in)
+wifi: Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot

@@ -10,11 +10,11 @@ So, you've decided you want to edit the wiki. Awesome! This page will show you h
 
 ### Using repo
 
-If you already have a LineageOS source tree checked out, then this step is done for you. The wiki's git repository is present under `$LINEAGE_SRC/lineage/wiki`.
+If you already have a exTHmUI source tree checked out, then this step is done for you. The wiki's git repository is present under `$LINEAGE_SRC/lineage/wiki`.
 
 ### Using git
 
-If you don't have a LineageOS source tree on your device, then you can clone the wiki from GitHub to any directory you like. In this example, we'll use `~/lineage_wiki`.
+If you don't have a exTHmUI source tree on your device, then you can clone the wiki from GitHub to any directory you like. In this example, we'll use `~/lineage_wiki`.
 
 #### Install Git
 
@@ -45,7 +45,7 @@ git config --global user.name "Your Name"
 git config --global user.email "youremail@example.com"
 ```
 
-{% include alerts/tip.html content="Before this step, you can fork the LineageOS wiki repository and work on your own copy. That way you can preview your changes online using GitHub pages, which [we've detailed below](#preview-using-github). Just fork the repo and then replace LineageOS in the `git clone` command with your GitHub username." %}
+{% include alerts/tip.html content="Before this step, you can fork the exTHmUI Wiki repository and work on your own copy. That way you can preview your changes online using GitHub pages, which [we've detailed below](#preview-using-github). Just fork the repo and then replace exTHmUI in the `git clone` command with your GitHub username." %}
 
 ```
 git clone https://github.com/LineageOS/lineage_wiki ~/lineage_wiki
@@ -199,14 +199,14 @@ At this point you should be able to view the [local Jekyll server](http://127.0.
 
 ## Uploading your changes
 
-LineageOS uses [Gerrit](https://review.lineageos.org/) to review proposed changes. Before you begin,
+exTHmUI uses [Gerrit](https://review.lineageos.org/) to review proposed changes. Before you begin,
 you'll need to [create an account](https://review.lineageos.org/login/%23%2Fregister%2Fq%2Fstatus%3Aopen),
 and [configure an SSH key](https://review.lineageos.org/Documentation/user-upload.html#ssh).
 
 After you've done this, you can push your commits to Gerrit:
 
 ```
-git remote add gerrit ssh://<gerritusername>@review.lineageos.org:29418/LineageOS/lineage_wiki
+git remote add gerrit ssh://<gerritusername>@review.lineageos.org:29418/exTHmUI/lineage_wiki
 git push gerrit HEAD:refs/for/master
 ```
 

@@ -11,22 +11,22 @@ codename: akari
 cpu: Kryo 385
 cpu_cores: '8'
 cpu_freq: 4 x 2.7 GHz + 4 x 1.7 GHz
-current_branch: 18.1
+current_branch: 10
 depth: 11.1 mm (0.44 in)
-download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
+download_boot: 将设备关机, 按住 <kbd>音量上</kbd> 并且连接 USB 到电脑，然后呼吸灯会变成蓝色
 gpu: Adreno 630
 height: 153 mm (6.02 in)
 image: akari.png
 install_method: fastboot_sony
 is_ab_device: true
 kernel: android_kernel_sony_sdm845
-maintainers: [olivier97, sjllls]
+maintainers: []
 models: [H8216, H8266, H8276, H8296]
 name: Xperia XZ2
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Light sensor, Proximity sensor, Compass, GPS]
 ram: 4 or 6 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+recovery_boot: 将设备关机, 按住 <kbd>音量下</kbd> + <kbd>电源</kbd>。
 release: 2018-04
 screen: 145 mm (5.7 in)
 screen_ppi: '424'
@@ -39,6 +39,6 @@ tree: android_device_sony_akari
 type: phone
 vendor: Sony
 vendor_short: sony
-versions: [17.1, 18.1]
+versions: [10]
 width: 72 mm (2.83 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot

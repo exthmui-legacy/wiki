@@ -13,7 +13,7 @@
 
 让我们开始！
 
-## 编译 LineageOS
+## 编译 exTHmUI
 
 {% if device %}
 {% include alerts/note.html content="这些步骤你只需要做一次。如果你已经配置好了编译环境并同步了源代码,
@@ -25,7 +25,7 @@
 
 ### 安装 platform-tools
 
-如果您还没有安装 `adb` 和 `fastboot`, 你可以从 [Google 下载](https://dl.google.com/android/repository/platform-tools-latest-linux.zip)，
+如果你还没有安装 `adb` 和 `fastboot`, 你可以从 [Google 下载](https://dl.google.com/android/repository/platform-tools-latest-linux.zip)，
 然后解压并运行:
 
 ```
@@ -43,11 +43,11 @@ if [ -d "$HOME/platform-tools" ] ; then
 fi
 ```
 
-然后运行 `source ~/.profile` 来更新您的环境变量
+然后运行 `source ~/.profile` 来更新你的环境变量
 
-### 安装编译 LineageOS 所需的依赖包
+### 安装编译 exTHmUI 所需的依赖包
 
-编译 LineageOS 依赖于几个软件包。你可以使用你 Linux 发行版的软件包管理器安装这些软件包。
+编译 exTHmUI 依赖于几个软件包。你可以使用你 Linux 发行版的软件包管理器安装这些软件包。
 
 {% include alerts/tip.html content="[软件包管理器](https://en.wikipedia.org/wiki/Package_manager) 是 Linux 中用于安装或删除软件用的软件。在 Ubuntu 中，你可以直接使用 Ubuntu 软件中心，你也可以直接在终端使用 `apt-get` 命令。" %}
 
@@ -59,7 +59,7 @@ fi
 {%- endif -%}
 {%- endcapture -%}
 
-编译 LineageOS 需要:
+编译 exTHmUI 需要:
 
 * `bc bison build-essential ccache curl flex g++-multilib gcc-multilib git gnupg gperf imagemagick
    lib32ncurses5-dev lib32readline-dev lib32z1-dev liblz4-tool libncurses5 libncurses5-dev
@@ -68,7 +68,7 @@ fi
    zip zlib1g-dev`
 
 {% if device.versions contains 13.0 %}
-要编译 LineageOS 13.0, 还需要:
+要编译 exTHmUI 13.0, 还需要:
 
 * `maven`
 {% endif %}
@@ -83,19 +83,10 @@ fi
 
 #### Java
 
-不同版本的 LineageOS 依赖于不同版本的 JDK (Java 开发套件) 版本。
+不同版本的 exTHmUI 依赖于不同版本的 JDK (Java 开发套件) 版本。
 
-* LineageOS 18.1: OpenJDK 11 (包含在源码中)
-* LineageOS 16.0-17.1: OpenJDK 1.9 (包含在源码中)
-* LineageOS 14.1-15.1: OpenJDK 1.8 (安装 `openjdk-8-jdk`)
-* LineageOS 11.0-13.0: OpenJDK 1.7 (安装 `openjdk-7-jdk`)\*
-
-\* Ubuntu 16.04 或更新版本的软件源中没有包含 OpenJDK 1.7。
-参考问题 "[如何在 Ubuntu 16.04 或更高版本中安装 openjdk 7](http://askubuntu.com/questions/761127/how-do-i-install-openjdk-7-on-ubuntu-16-04-or-higher)"
-
-注意，使用 PPA openjdk-r 的建议已经过时了 (PPA 从未更新他们提供的 openjdk-7-jdk，所以它缺乏安全修复。)
-
-跳过这个得到最多人支持的答案。
+* exTHmUI 11: OpenJDK 11 (包含在源码中)
+* exTHmUI 9-10: OpenJDK 1.9 (包含在源码中)
 
 ### 新建文件夹
 
@@ -108,7 +99,7 @@ mkdir -p ~/bin
 mkdir -p ~/android/lineage
 ```
 
-`~/bin` 目录将包含 git-repo（通常称为 "repo"），`~/android/lineage` 目录将包含 LineageOS 的源代码。
+`~/bin` 目录将包含 git-repo（通常称为 "repo"），`~/android/lineage` 目录将包含 exTHmUI 的源代码。
 
 ### 安装 `repo` 的命令
 
@@ -123,7 +114,7 @@ chmod a+x ~/bin/repo
 
 在最近版本的 Ubuntu, `~/bin` 应该已经被添加到环境变量。
 
-您可以打开 `~/.profile` 来检查是否已被添加 (如果没被添加，请手动添加):
+你可以打开 `~/.profile` 来检查是否已被添加 (如果没被添加，请手动添加):
 
 ```
 if [ -d "$HOME/bin" ] ; then
@@ -131,11 +122,11 @@ if [ -d "$HOME/bin" ] ; then
 fi
 ```
 
-然后运行 `source ~/.profile` 来更新您的环境变量
+然后运行 `source ~/.profile` 来更新你的环境变量
 
 
 ### 配置 git
-`repo` 需要鉴定您的身份以同步 Android 源代码, 运行以下命令来配置你的 `git` 身份:
+`repo` 需要鉴定你的身份以同步 Android 源代码, 运行以下命令来配置你的 `git` 身份:
 ```
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
@@ -143,7 +134,7 @@ git config --global user.name "Your Name"
 
 ### 打开缓存来加速编译
 
-如果您想加快后继编译的速度，您可以打开 [`ccache`](https://ccache.samba.org/)：
+如果你想加快后继编译的速度，你可以打开 [`ccache`](https://ccache.samba.org/)：
 
 ```
 export USE_CCACHE=1
@@ -174,7 +165,7 @@ ccache -o compression=true
 {% if device.current_branch >= 14 and device.current_branch < 16 %}
 ### 配置 Jack
 
-[Jack](http://source.android.com/source/jack.html) 是用于编译 LineageOS 14.1 和 15.1 的 Java 工具链。 众所周知，如果配置不正确，它的内存会经常耗尽。- 一个简单的解决方法是运行这个命令:
+[Jack](http://source.android.com/source/jack.html) 是用于编译 exTHmUI 14.1 和 15.1 的 Java 工具链。 众所周知，如果配置不正确，它的内存会经常耗尽。- 一个简单的解决方法是运行这个命令:
 
 ```
 export ANDROID_JACK_VM_ARGS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4G"

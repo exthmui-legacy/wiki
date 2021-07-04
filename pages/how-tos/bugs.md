@@ -9,7 +9,7 @@ tags:
 ---
 
 ## What not to report
-  - Bugs in unofficial builds or anything not downloaded from [our official portal](https://download.lineageos.org/)
+  - Bugs in unofficial builds or anything not downloaded from [our official portal](https://download.exthmui.cn/exthmui/)
   - Missing builds
   - Asking for installation help
   - Asking for device support
@@ -22,7 +22,7 @@ We use [Gitlab Issues](https://gitlab.com/LineageOS/issues) as our bug tracker. 
 We accept bugs on the following:
 
   - [Android](https://gitlab.com/LineageOS/issues/android)
-    - These are bugs in LineageOS.
+    - These are bugs in exTHmUI.
     - Examples:
       - The fingerprint sensor on your device doesn't work.
       - Your phone crashes when you try to enable encryption.

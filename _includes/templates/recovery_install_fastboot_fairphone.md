@@ -1,9 +1,9 @@
 {%- assign device = site.data.devices[page.device] -%}
 
-## Unlocking the bootloader
+## 解锁 Bootloader
 
-{% include alerts/note.html content="Unlocking the bootloader only needs to be done once per device." %}
-{% include alerts/warning.html content="Unlocking the bootloader will erase all data on your device!
+{% include alerts/note.html content="解锁 Bootloader only needs to be done once per device." %}
+{% include alerts/warning.html content="解锁 Bootloader will erase all data on your device!
 Before proceeding, ensure the data you would like to retain is backed up to your PC and/or your Google account, or equivalent." %}
 
 Follow the instructions at [Fairphone Support](https://support.fairphone.com/hc/en-us/articles/360048646311-Manage-the-bootloader-of-your-FP3-FP3-) to unlock your bootloader.

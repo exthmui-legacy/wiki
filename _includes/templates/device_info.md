@@ -8,21 +8,21 @@
 {% endif %}
 
 {% if device.maintainers != empty %}
-## 获取适用于 {{ device.vendor }} {{ device.name }} 的 LineageOS
-[在这里获取](https://download.lineageos.org/{{ device.codename }})
+## 获取适用于 {{ device.vendor }} {{ device.name }} 的 exTHmUI
+[在这里获取](https://download.exthmui.cn/exthmui/{{ device.codename }})
 {% endif %}
 
 ## 指南
 
 - [安装]({{ "devices/" | append: device.codename | append: "/install" | relative_url }})
-- [自己编译]({{ "devices/" | append: device.codename | append: "/build" | relative_url }})
+- [编译]({{ "devices/" | append: device.codename | append: "/build" | relative_url }})
 {%- if device.firmware_update %}
 - [更新固件]({{ "devices/" | append: device.codename | append: "/fw_update" | relative_url }})
 {%- endif %}
-- [更新 LineageOS(同版本号)]({{ "devices/" | append: device.codename | append: "/update" | relative_url }})
+- [更新 exTHmUI (同版本号)]({{ "devices/" | append: device.codename | append: "/update" | relative_url }})
 {% assign versions_count = device.versions|size -%}
 {%- if versions_count > 1 -%}
-- [更新 LineageOS (例如：lineage-15.1 -> lineage-16.0)]({{ "devices/" | append: device.codename | append: "/upgrade" | relative_url }})
+- [升级 exTHmUI (例如：lineage-15.1 -> lineage-16.0)]({{ "devices/" | append: device.codename | append: "/upgrade" | relative_url }})
 {%- endif -%}
 
 {% if device.note_show and device.note_show == true %}
@@ -39,6 +39,6 @@
 {% endif %}
 {% endif %}
 {% if device.download_boot %}
-* **Bootloader/Fastboot/Download**: {{ device.download_boot }}
+* **Bootloader/fastboot/Download**: {{ device.download_boot }}
 {% endif %}
 {% endif %}

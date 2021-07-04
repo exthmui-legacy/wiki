@@ -57,15 +57,15 @@
         <td>
             {% case device.cpu_cores %}
                 {% when '1' %}
-                    Single-core
+                    单核
                 {% when '2' %}
-                    Dual-core
+                    双核
                 {% when '4' %}
-                    Quad-core
+                    四核
                 {% when '6' %}
-                    Hexa-core
+                    六核
                 {% when '8' %}
-                    Octa-core
+                    八核
                 {% else %}
                     {{ device.cpu_cores }}x
             {% endcase %} {{ device.cpu }}<br>{{ device.cpu_freq }}
@@ -205,7 +205,7 @@
     <!-- lineage info -->
     {% if device.maintainers != empty %}
     <tr>
-        <th scope="row" colspan="2">LineageOS 信息</td>
+        <th scope="row" colspan="2">exTHmUI 信息</td>
     </tr>
     <tr>
         <th scope="row">维护者</td>

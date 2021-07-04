@@ -54,12 +54,9 @@ definitions:
   valid_branches:
     description: Valid branches a device can be on
     enum:
-    - 13.0
-    - 14.1
-    - 15.1
-    - 16.0
-    - 17.1
-    - 18.1
+    - 9
+    - 10
+    - 11
     type: number
   valid_dimension:
     oneOf:

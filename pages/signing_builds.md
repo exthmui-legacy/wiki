@@ -38,7 +38,7 @@ mka target-files-package otatools
 Sit back and wait for a while - it may take a while depending on your computer's specs. After
 it's finished, you just need to sign all the APKs:
 
-{% include alerts/note.html content="For LineageOS versions older than 18.1 you will have to prepend \"./build/tools/releasetools/\" on the \"sign_target_files_apks\" and \"ota_from_target_files\" commands below." %}
+{% include alerts/note.html content="For exTHmUI versions older than 18.1 you will have to prepend \"./build/tools/releasetools/\" on the \"sign_target_files_apks\" and \"ota_from_target_files\" commands below." %}
 
 ```
 croot
@@ -129,7 +129,7 @@ the recovery.
 #### Test-keys to official or vice versa
 
 If you are moving from a test-keys build (eg an "unsigned" unofficial build) to an official
-LineageOS build, you can push the script to your device and run it from Android:
+exTHmUI build, you can push the script to your device and run it from Android:
 
 ```
 adb root # This requires an userdebug/eng build and ADB root access to be enabled
@@ -138,7 +138,7 @@ adb push ./lineage/scripts/key-migration/migration.sh /data/local/tmp/migration.
 adb shell chmod +x /data/local/tmp/migration.sh
 adb shell sh /data/local/tmp/migration.sh official
 adb reboot recovery
-# Now install the official LineageOS install zip
+# Now install the official exTHmUI install zip
 ```
 
 Or run it from recovery:

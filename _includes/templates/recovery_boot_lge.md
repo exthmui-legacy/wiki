@@ -1,1 +1,1 @@
-{% include alerts/note.html content="Accept the factory reset prompt using the hardware buttons. If you have done everything correctly, this will not actually reset your device but instead will boot the custom recovery." %}
+{% include alerts/note.html content="使用实体按键接受重置提示。如果你是按照向导进行的话，这并不会重置你的设备，而是会启动 Recovery。" %}

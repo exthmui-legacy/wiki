@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Upgrade LineageOS on {codename}
+title: 升级 exTHmUI 到 {codename}
 folder: upgrade
 permalink: /devices/{codename}/upgrade
 device: {codename}

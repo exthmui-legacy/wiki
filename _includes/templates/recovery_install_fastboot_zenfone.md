@@ -1,4 +1,4 @@
-## Unlocking the bootloader
+## 解锁 Bootloader
 
 {% include alerts/note.html content="The steps below only need to be run once per device." %}
 

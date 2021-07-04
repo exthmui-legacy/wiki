@@ -1,8 +1,8 @@
 ---
 sidebar: home_sidebar
-title: 给 akari 编译 exTHmUI
+title: 编译 exTHmUI 给 aries
 folder: build
-permalink: /devices/akari/build
-device: akari
+permalink: /devices/aries/build
+device: aries
 ---
 {% include templates/device_build.md %}

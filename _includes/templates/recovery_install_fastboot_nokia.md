@@ -1,4 +1,4 @@
-## Unlocking the bootloader
+## 解锁 Bootloader
 
 {% include alerts/specific/important_bootloader_not_unlockable.html %}
 

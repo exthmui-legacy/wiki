@@ -1,10 +1,10 @@
 {%- assign device = site.data.devices[page.device] -%}
 
-## Unlocking the bootloader
+## 解锁 Bootloader
 
 {% include alerts/note.html content="The steps below only need to be run once per device." %}
-{% include alerts/warning.html content="Unlocking the bootloader will erase all data on your device!
-Before proceeding, ensure the data you would like to retain is backed up to your PC and/or your Google account, or equivalent. Please note that OEM backup solutions like Samsung and Motorola backup may not be accessible from LineageOS once installed." %}
+{% include alerts/warning.html content="解锁 Bootloader will erase all data on your device!
+Before proceeding, ensure the data you would like to retain is backed up to your PC and/or your Google account, or equivalent. Please note that OEM backup solutions like Samsung and Motorola backup may not be accessible from exTHmUI once installed." %}
 
 1. Visit [LG's official unlocking website](http://developer.lge.com/resource/mobile/RetrieveBootloader.dev), where you'll be asked to login.
 2. Follow the instructions and get your unlock file.

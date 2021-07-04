@@ -1,6 +1,6 @@
 {% include alerts/tip.html content="It is highly recommended to have the latest official EMUI package installed on the device, before proceeding." %}
 
-## Unlocking the bootloader
+## 解锁 Bootloader
 
 {% include alerts/specific/important_bootloader_not_unlockable.html %}
 

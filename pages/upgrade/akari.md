@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Upgrade LineageOS on akari
+title: 给 akari 升级 exTHmUI
 folder: upgrade
 permalink: /devices/akari/upgrade
 device: akari

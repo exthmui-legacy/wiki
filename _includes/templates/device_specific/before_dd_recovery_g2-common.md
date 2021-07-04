@@ -1,5 +1,5 @@
 ## Downgrading bootloader
-In order to be able to boot a custom recovery and LineageOS you need to downgrade your bootloader.
+In order to be able to boot a custom recovery and exTHmUI you need to downgrade your bootloader.
 
 1. Download the relevant files for your device variant from [here](https://androidfilehost.com/?w=files&flid=298128).
 2. Place `aboot.bin` and `laf.bin` on the root of `/sdcard`:

@@ -1,8 +1,8 @@
 ---
 sidebar: home_sidebar
-title: 安装 exTHmUI 到 akari
+title: 安装 exTHmUI 到 aries
 folder: install
-permalink: /devices/akari/install
-device: akari
+permalink: /devices/aries/install
+device: aries
 ---
 {% include templates/device_install.md %}

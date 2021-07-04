@@ -18,7 +18,7 @@ ask that you meet some important prerequisites and then get in touch with our de
 
 Make sure **you** meet the following requirements:
 
-* **Continued support** - Ask yourself: *"Do I want to provide continuous support?"* - LineageOS is *not* a "submit it and forget it" home.
+* **Continued support** - Ask yourself: *"Do I want to provide continuous support?"* - exTHmUI is *not* a "submit it and forget it" home.
 You need to be willing to continue maintaining the device by fixing bugs, applying security updates and eventually improving performance.
 
 ## Submitting your device
@@ -36,7 +36,7 @@ device port requests are accepted. Developer relations will do their best to inf
 
 ## Making your device official
 
-{% include alerts/note.html content="Once you have successfully submitted your device, you will be given access to our internal tools to help maintain your device and coordinate development of LineageOS. You only need to worry about these steps once you've been given access to them." %}
+{% include alerts/note.html content="Once you have successfully submitted your device, you will be given access to our internal tools to help maintain your device and coordinate development of exTHmUI. You only need to worry about these steps once you've been given access to them." %}
 
 The following steps are necessary to finally make your device an official one:
 

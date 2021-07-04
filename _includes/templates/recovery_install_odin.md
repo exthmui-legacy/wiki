@@ -9,7 +9,7 @@
 
 {% include alerts/note.html content="The following instructions **require** a machine running Windows 7 or newer." %}
 
-Samsung devices come with a unique boot mode called "Download mode", which is very similar to "Fastboot mode" on some devices with unlocked bootloaders.
+Samsung devices come with a unique boot mode called "Download mode", which is very similar to "fastboot mode" on some devices with unlocked bootloaders.
 Odin is a Samsung-made tool for interfacing with Download mode on Samsung devices.
 The preferred method of installing a custom recovery is through Download Mode{% unless custom_root_instructions %} -- rooting the stock firmware is neither necessary nor required{% endunless %}.
 

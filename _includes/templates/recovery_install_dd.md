@@ -5,20 +5,20 @@
 {% assign custom_recovery_codename = device.codename %}
 {% endif %}
 
-## Rooting your device
+## Root 你的设备
 
-{% include alerts/important.html content="The device must be rooted before proceeding any further." %}
+{% include alerts/important.html content="设备必须 Root 才能进行下一步操作。" %}
 
 {% case device.root_method[0] %}
 {% when 'custom' %}
-1. Root your device by following [this]({{ device.root_method[1] }}) guide.
+1. 参考[此向导]({{ device.root_method[1] }}) Root 你的设备。
 {% when 'kingroot' %}
-1. Download KingRoot from [here](https://kingroot.net/).
-   1. Install and run the apk to achieve root. Ensure you have a working Internet connection.
+1. 在[这里下载](https://kingroot.net/) Kingroot。
+   1. 安装并运行 Kingroot 来 Root 你的设备。
 {% when 'towelroot' %}
-1. Download TowelRoot from [here](https://towelroot.com/).
-   1. Click the large lambda symbol to download the apk.
-   2. Install and run the apk to achieve root.
+1. 在[这里下载](https://towelroot.com/) TowelRoot。
+   1. 点击 “入” 来下载 TowelRoot。
+   2. 安装并运行 TowelRoot 来 Root 你的设备。
 {% endcase %}
 
 {% if device.before_dd_recovery %}
@@ -26,28 +26,28 @@
 {% include {{ path }} %}
 {% endif %}
 
-## Installing a custom recovery using `dd`
+## 使用 `dd` 来安装自定义 Recovery
 
 {% if device.custom_recovery_link %}
-1. Download a custom recovery - you can download one [here]({{ device.custom_recovery_link }}).
+1. 你可以在[这里下载]({{ device.custom_recovery_link }})自定义 Recovery。
 {% else %}
 {% if device.uses_twrp %}
-1. Download a custom recovery - you can download [TWRP](https://dl.twrp.me/{{ custom_recovery_codename }}). Simply download the latest recovery file, named something like `twrp-x.x.x-x-{{ custom_recovery_codename }}.img`.
+1. 你可以在[这里下载](https://dl.twrp.me/{{ custom_recovery_codename }})最新版本的 TWRP，文件名应该看起来像这样 `twrp-x.x.x-x-{{ custom_recovery_codename }}.img`。
 {% else %}
-1. Download a custom recovery - you can download [Lineage Recovery](https://download.lineageos.org/{{ custom_recovery_codename }}). Simply download the latest recovery file, named something like `lineage-{{ device.current_branch }}-{{ site.time | date: "%Y%m%d" }}-recovery-{{ custom_recovery_codename }}.img`.
+1. 你可以在[这里下载](https://download.exthmui.cn/exthmui/{{ custom_recovery_codename }}) exTHmUI Recovery。
 {% endif %}
 {% endif %}
-2. Place the recovery image file on the root of `/sdcard`:
-   * Using adb: `adb push <recovery_filename>.img /sdcard/<recovery_filename>.img`
-    {% include alerts/tip.html content="The file may not be named identically to what stands in this command, so adjust accordingly." %}
-   * You can use any method you are comfortable with. `adb` is universal across all devices, and works both in Android and recovery mode, providing USB debugging is enabled.
-3. Now, open an `adb shell` from a command prompt (on Windows) or terminal (on Linux or macOS) window. In that shell, type the following commands:
+2. 将 Recovery 镜像放在 `/sdcard`:
+   * 使用 adb 运行: `adb push <recovery_filename>.img /sdcard/<recovery_filename>.img`
+    {% include alerts/tip.html content="该文件的名称可能与此命令中的名称不一致，可能需要进行调整。" %}
+   * 你可以使用任何你觉得合适的方法。`adb` 在所有 Android 设备上都是可用的，可以在 Android 和 Recovery 下工作。
+3. 现在运行 `adb shell` 然后运行:
 ```
 su
 dd if=/sdcard/<recovery_filename>.img of={{ device.recovery_partition }}
 ```
-4. Reboot into recovery.
-    * From the same shell, type the following command:
+4. 重启到 Recovery
+    * 在同一窗口运行:
 ```
 reboot recovery
 ```
