@@ -1,5 +1,5 @@
 ---
-title: Requesting exTHmUI for your device
+title: 请求 exTHmUI 支持你的设备
 permalink: device_requests.html
 toc: false
 ---

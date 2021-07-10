@@ -1,5 +1,5 @@
 ---
-title: Build guides
+title: 构建指南
 sidebar: home_sidebar
 permalink: build_guides.html
 toc: false
