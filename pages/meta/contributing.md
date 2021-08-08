@@ -1,26 +1,26 @@
 ---
 sidebar: home_sidebar
-title: Contributing
+title: 贡献
 folder: meta
 toc: false
 permalink: contributing.html
 ---
 
-So, you've decided you want to contribute to LineageOS. Awesome! This page will give you a quick overview of what you can do to contribute.
+所以，你已经决定好要为exTHmUI贡献了，やりますね！这个页面会为你能贡献的东西提供一个快速预览。
 
-## Source code and features
+## 源码与功能特性
 
-To work with the source code, you can check the following links:
+为了操作源码，你可以查看如下链接：
 
-- [Build for your device](build_guides.html)
-- [Build for the Emulator / AVD](emulator.html)
-- [How to import the sources to Android Studio / IntelliJ]({{ "how-to/import-to-android-studio" | relative_url }})
-- [How to submit a patch]({{ "how-to/submitting-patches" | relative_url }})
+- [为你的设备构建](build_guides.html)
+- [为模拟器/AVD构建](emulator.html)
+- [如何把源码导入Android Studio / IntelliJ]({{ "how-to/import-to-android-studio" | relative_url }})
+- [如何提交更改]({{ "how-to/submitting-patches" | relative_url }})
 
-## Translations
+## 翻译
 
-Want to see LineageOS in your favorite language? Or it's already there but incomplete? Then [this guide]({{ "how-to/translate" | relative_url }}) is for you!
+想要以你喜欢的语言看见exTHmUI？或者已经有了但是没完成？那么[这个指南]({{ "how-to/translate" | relative_url }}) 非常适合你！
 
-## Wiki
+## 维基
 
-You can help us make this wiki a place where all information to work with and on LineageOS can easily be found. Click [here]({{ "contributing_wiki.html" | relative_url }}) to find out, how!
+你可以帮助我们使这个维基成为一个一切有关exTHmUI的信息皆易被找到的地方点击[这里]({{ "contributing_wiki.html" | relative_url }})来看看怎么做！
