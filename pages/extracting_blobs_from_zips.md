@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Extracting proprietary blobs from exTHmUI zip files
+title: 从 exTHmUI zip包中解压二进制blob文件
 permalink: extracting_blobs_from_zips.html
 ---
 ## Introduction

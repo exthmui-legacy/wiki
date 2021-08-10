@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Signing Builds
+title: 为构建签名
 permalink: signing_builds.html
 ---
 ## Generating the keys

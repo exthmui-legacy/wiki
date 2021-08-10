@@ -1,5 +1,5 @@
 ---
-title: Submitting a port
+title: 申请成为Official维护者
 permalink: submitting_device.html
 ---
 Congratulations! After weeks (months?) of hard work, LineageOS is running well on your device!
