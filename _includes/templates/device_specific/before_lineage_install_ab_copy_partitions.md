@@ -12,6 +12,7 @@
     {%- else %}
 2. 旁加载补丁包`copy-partitions-20210323_1922.zip` ：
     * 在Recovery模式下选择 "Apply Update"，再选择"Apply from ADB" 开启sideload（旁加载）
-    * 在主机上使用命令：`adb sideload copy-partitions-20210323_1922.zip`旁加载补丁包{% include alerts/note.html content="这个分区复制脚本由LineageOS开发者erfanoabdi和filipepferraz创作但是它并没有用任何LineageOS或基于LineageOS（包括exTHmUI）的ROM的密钥进行签名，因此当这个脚本被旁加载时，Lineage Recovery将展现一个写着 `Signature verification failed`的屏幕，这是正常现象，直接点 `Continue`." %}
+    * 在主机上使用命令：`adb sideload copy-partitions-20210323_1922.zip`旁加载补丁包
+    * {% include alerts/note.html content="这个分区复制脚本由LineageOS开发者erfanoabdi和filipepferraz创作但是它并没有用任何LineageOS或基于LineageOS（包括exTHmUI）的ROM的密钥进行签名，因此当这个脚本被旁加载时，Lineage Recovery将展现一个写着 `Signature verification failed`的屏幕，这是正常现象，直接点 `Continue`." %}
 3. 现在请重启到Recovery。
 {%- endif %}
