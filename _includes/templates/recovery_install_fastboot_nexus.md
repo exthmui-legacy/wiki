@@ -2,8 +2,8 @@
 
 ## 解锁 Bootloader
 
-{% include alerts/note.html content="The steps below only need to be run once per device." %}
-{% include alerts/warning.html content="解锁 Bootloader will erase all data on your device!
+{% include alerts/note.html content="如下步骤一个设备只需跑一次" %}
+{% include alerts/warning.html content="解锁 Bootloader 将会清除设备上所有数据！
 Before proceeding, ensure the data you would like to retain is backed up to your PC and/or your Google account, or equivalent. Please note that OEM backup solutions like Samsung and Motorola backup may not be accessible from exTHmUI once installed." %}
 
 {% unless device.no_oem_unlock_switch %}
@@ -16,7 +16,7 @@ adb reboot bootloader
 ```
     {% if device.download_boot %}
     You can also boot into fastboot mode via a key combination:
-
+    
     * {{ device.download_boot }}
     {% endif %}
 4. Once the device is in fastboot mode, verify your PC finds it by typing:
