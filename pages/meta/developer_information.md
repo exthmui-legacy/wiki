@@ -1,15 +1,15 @@
 ---
 sidebar: home_sidebar
-title: Information for Lineage Developers
+title: 为exTHmUI开发者提供的信息
 folder: meta
 toc: false
 permalink: developer_information.html
 ---
-So, you've decided you want to contribute to the Lineage software. Awesome! This page provides reference material that may be useful to help you.
+你已经决定要为exTHmUI做贡献了。太好了！这个页面提供了可能对你有用的参考资料。
 
-## List of links
+## 链接列表
 
-These are pages you might want to check out for the information you are searching
+这些页面可能有你想要找的东西
 
 {% assign sorted_pages = site.pages | sort: 'title' %}
 
