@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: 升级 exTHmUI 到 mata
+title: 给 mata 升级 exTHmUI
 folder: upgrade
 permalink: /devices/mata/upgrade
 device: mata
