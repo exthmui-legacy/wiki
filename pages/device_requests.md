@@ -4,14 +4,14 @@ permalink: device_requests.html
 toc: false
 ---
 
-_exTHmUI, please support my new device! Pretty please with cherries on top!_
+_exTHmUI, 请适配我的设备！求求你了！_
 
-**tl;dr** It's up to you.
+**tl;dr** 这完全取决于你。
 
-Sorry to let you down, but exTHmUI device support has nothing to do with the number of device requests received (or the number of cherries added on top, for that matter). The folks who maintain devices for exTHmUI choose devices that interest them. Remember, these are regular people enjoying a hobby. exTHmUI is not a corporation with employees. So, step one, purge your mind of the mentality that developers are sitting around waiting for advice about what to work on next.
+很抱歉让你失望了，但是exTHmUI对设备的支持与适配请求的数量无关（或者多少次“求求你了”,就此而言）。那些exTHmUI维护者一般只选使他们感兴趣的设备。记住，他们只是把维护exTHmUI当作业余爱好的普通人。exTHmUI团队不是一家公司。因此，第一步，不要抱着维护者坐在那里等待有关下一步工作的建议的心态。
 
-There's more to this story, though. Be wary of individuals who tout, "I bought a new device! It will therefore have fancy AOSP soon!" All too often, these are folks who underestimate the difficulty of bringing AOSP to a device. Even skilled maintainers cannot predict all the hurdles they will face in bring-up. Someone who says "soon" is someone who hasn't experienced the utter joy of having a device 99% finished, but one last function (e.g. fingerprint reader, HDR, encryption) takes months to get working.
+不过，这件事远不止这些。 注意那些说：“我买了一个新设备！它很快就会有完美的类原生！”的人。 很多时候，这些家伙低估了将第三方类原生引入设备的难度。 即使是熟练的维护人员也无法预测他们在适配过程中将面临的所有障碍。 说“很快”的人还没有体验到设备适配工作几乎完美，但某些功能（例如指纹、HDR、加密）需要几个月的时间才能修好的“乐趣”。
 
-Perhaps the only somewhat reliable indicator of whether a device may be officially supported is when a developer's hard work in bringing-up a device is forked over to [github.com/exTHmUI](https://github.com/exTHmUI). Notice, this is *after* a developer (or regular Joe, see below) puts in the time and effort to get exTHmUI running reliably. There's still no guarantee of official support at this point; the device needs to meet a number of quality control checklist items and the developer needs to agree to maintain the device over time. But, there's at least a decent chance.
+也许有关设备是否可以得到官方支持的唯一可靠指标是适配者在适配某个设备方面的辛勤工作是否被Fork（Github译为复刻）到[github.com/exTHmUI](https://github.com/exTHmUI)上。 请注意，*这是在适配者（或某个“张三”，见下文）投入时间和精力让 exTHmUI 可靠运行之后*。 而且目前也还不能保证官方支持。这个设备需要满足exTHmUI团队对官方维护设备系统的质量的要求，并且维护者需要同意长时间维护设备。 但是，至少有一个不错的机会。
 
-Ok, so if nobody is making headway on your device, where do you go from here? Consider that the majority of the device maintainers for exTHmUI have significantly different day jobs than Android device maintenance (or even programming, for that matter). If you are passionate enough about getting exTHmUI up and running on your device, you can make it happen. Start easy; buy an old, but well [supported device](devices.html) and try compiling your first ROM. Once you're running software you compiled yourself, start investigating the device configuration files. Tweak, and then tweak some more. Eventually, see what you're able to accomplish on _your_ device of interest!
+好了，如果没有人在您的设备上取得进展，您该怎么办？ 考虑到 exTHmUI 的大多数设备维护人员的日常工作与 Android 设备维护（甚至编程，就此而言）有很大不同。 如果您对在您的设备上启动并运行 exTHmUI 充满热情，那么您可以试试看。 轻松开始； 购买一个旧的但[受支持的设备](devices.html) 并尝试编译您的第一个 ROM。 运行自己编译的ROM后，开始调查设备配置文件。 调整，然后再调整一些。 最后，看看你能在_你感兴趣的设备_上完成什么！

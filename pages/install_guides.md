@@ -1,5 +1,5 @@
 ---
-title: Install guides
+title: 安装指南
 sidebar: home_sidebar
 permalink: install_guides.html
 toc: false

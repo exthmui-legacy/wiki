@@ -1,5 +1,5 @@
 ---
-title: Upgrade guides
+title: 升级指南
 sidebar: home_sidebar
 permalink: upgrade_guides.html
 redirect_from: upgrading.html
@@ -13,3 +13,4 @@ toc: false
 - [{{page.title}}]({{ page.url | relative_url }})
 {% endif %}
 {% endfor %}
+

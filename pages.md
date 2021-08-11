@@ -1,5 +1,5 @@
 ---
-title: All Content
+title: 全部内容
 sidebar: home_sidebar
 permalink: pages.html
 toc: false
