@@ -4,27 +4,27 @@
 
 {% include alerts/note.html content="如下步骤一个设备只需跑一次" %}
 {% include alerts/warning.html content="解锁 Bootloader 将会清除设备上所有数据！
-Before proceeding, ensure the data you would like to retain is backed up to your PC and/or your Google account, or equivalent. Please note that OEM backup solutions like Samsung and Motorola backup may not be accessible from exTHmUI once installed." %}
+在继续之前，请确保您要保留的数据已备份到您的 PC 和/或您的 Google 帐户，或其他等效的地方。 请注意，一旦安装 exTHmUI， 三星和摩托罗拉备份等 OEM 的备份文件在exTHmUI上不可用。" %}
 
 {% unless device.no_oem_unlock_switch %}
-1. Enable OEM unlock in the Developer options under device Settings, if present.
+1. 在设备设置下的开发者选项中启用 OEM 解锁（如果有）。
 {% endunless %}
-2. Connect the device to your PC via USB.
-3. On the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window, and type:
+2. 通过USB线把设备预电脑连接。
+3. 在电脑上，打开一个命令提示符窗口 (Windows) 或终端窗口(Linux或macOS)，然后输入
 ```
 adb reboot bootloader
 ```
     {% if device.download_boot %}
-    You can also boot into fastboot mode via a key combination:
+    你也可以通过如下按键组合进入fastboot模式：
     
     * {{ device.download_boot }}
     {% endif %}
-4. Once the device is in fastboot mode, verify your PC finds it by typing:
+4. 一旦设备处于fastboot模式，请确认您的电脑找到它：
 ```
 fastboot devices
 ```
-    {% include alerts/tip.html content="If you see `no permissions fastboot` while on Linux or macOS, try running `fastboot` as root." %}
-5. Now type the following command to unlock the bootloader:
+    {% include alerts/tip.html content="如果你在Linux或者macOS上看见`no permissions fastboot`，请用root模式执行" %}
+5. 现在，输入如下命令解锁Bootloader
 
 {% if device.custom_unlock_cmd %}
     ```
@@ -36,8 +36,8 @@ fastboot oem unlock
     ```
 {% endif %}
 
-6. If the device doesn't automatically reboot, reboot it. It should now be unlocked.
-7. Since the device resets completely, you will need to re-enable USB debugging to continue.
+6. 如果设备没有自动重启，手动重启。现在它应该被解锁了。
+7. 由于设备完全重置，您将需要重新启用 USB 调试以继续。
 
 {% if device.before_recovery_install %}
 {% capture path %}templates/device_specific/{{ device.before_recovery_install }}.md{% endcapture %}
