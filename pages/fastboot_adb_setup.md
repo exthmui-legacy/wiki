@@ -28,7 +28,7 @@ Google 托管了仅包括 `adb` 和 `fastboot`的zip文件。 您可以按照以
     * 单击“环境变量”按钮，打开“环境变量”窗口
     * 选择“系统变量”下的“Path”变量后单击“编辑”按钮。
     * 单击“新建”按钮
-    * 插入% `%USERPROFILE%\adb-fastboot\platform-tools` in the text field
+    * 在文本框中插入% `%USERPROFILE%\adb-fastboot\platform-tools`
 5. 安装 [通用ADB驱动](https://github.com/koush/UniversalAdbDriver)然后重启
 
 ### 在macOS上安装
@@ -40,7 +40,7 @@ if [ -d "$HOME/adb-fastboot/platform-tools" ] ; then
     export PATH="$HOME/adb-fastboot/platform-tools:$PATH"
 fi
 ```
-4. Log out and back in.（译者没有Mac，请Mac用户指出正确翻译）
+4. 退出登录您当前登录的用户后重新登录
 
 ### 在Linux上安装
 1. 从Google下载[Linux zip](https://dl.google.com/android/repository/platform-tools-latest-linux.zip)。
