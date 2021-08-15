@@ -22,7 +22,7 @@
 - [更新 exTHmUI (同版本号)]({{ "devices/" | append: device.codename | append: "/update" | relative_url }})
 {% assign versions_count = device.versions|size -%}
 {%- if versions_count > 1 -%}
-- [升级 exTHmUI (例如：lineage-15.1 -> lineage-16.0)]({{ "devices/" | append: device.codename | append: "/upgrade" | relative_url }})
+- [升级 exTHmUI (例如：exTHmUI-10 -> exTHmUI-11)]({{ "devices/" | append: device.codename | append: "/upgrade" | relative_url }})
 {%- endif -%}
 
 {% if device.note_show and device.note_show == true %}
