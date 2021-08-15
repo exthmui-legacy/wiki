@@ -1,31 +1,29 @@
 ---
 sidebar: home_sidebar
-title: 从 exTHmUI zip包中解压二进制blob文件
+title: 从 exTHmUI zip包中提取专有二进制blob文件
 permalink: extracting_blobs_from_zips.html
 ---
-## Introduction
+## 介绍
 
-Proprietary blobs can be extracted either from a device already running exTHmUI or from a exTHmUI installable zip. In this guide we will describe the steps required to extract proprietary files from installable zips.
+专有blob可以从已经运行exTHmU的设备中提取，也可以从exTHmUI可安装的zip包中提取。在本指南中，我们将介绍从可安装的zip包中提取专有文件所需的步骤。
 
-Before beginning, it is required to know the difference between the types of OTAs:
+在开始之前，需要了解OTA类型之间的差异:
 
-* **Block-based OTA**: the content of the system partition is stored inside of an `.dat`/`.dat.br` file as binary data.
+* **区块形式的OTA包(Block-based OTA)**: 系统分区的内容作为二进制数据存储在`.dat`或`.dat.br`文件中。
+* **文件形式的OTA包(File-based OTA)**: 系统分区的内容位于zip包的`system`文件夹中
+* **堆栈形式的OTA包(Payload-based OTA)**: 系统分区的内容作为`.img`文件存储在`payload.bin`中。
 
-* **File-based OTA**: the content of the system partition is available inside a folder of the zip named `system`.
+如果您的zip包中没有`system`文件夹,或者它几乎是空的,并且根目录存在名为`system.transfer.list的文件`，则您拥有的是区块形式的OTA包。在这种情况下，跳转到[从区块形式的OTA包中提取专有二进制blob文件](#从区块形式的OTA包中提取专有二进制blob文件) 。
 
-* **Payload-based OTA**: the content of the system partition is stored as an `.img` file inside of `payload.bin`.
+如果`system`文件夹中包含系统分区的全部内容，而没有`system.transfer.list`，则您拥有的是文件形式的OTA包。请参见[从文件形式的OTA包中提取专有二进制blob文件](#从文件形式的OTA包中提取专有二进制blob文件)。
 
-If your zip has no `system` folder or it is nearly empty and a file named `system.transfer.list` exists at the root level, then what you have is a block-based OTA. Jump to [Extracting proprietary blobs from block-based OTAs](#extracting-proprietary-blobs-from-block-based-otas) in this case.
+您还可能有一个堆栈形式的OTA包，如果您的设备使用A/B分区系统，它将使用这种形式的OTA。如果这是您所拥有的，请跳转到[从堆栈形式的OTA包中提取专有二进制blob文件](#从堆栈形式的OTA包中提取专有二进制blob文件)。
 
-If you have the entire content of the system partition inside the `system` folder and no `system.transfer.list`, then what you have is a file-based OTA. See [Extracting proprietary blobs from file-based OTAs](#extracting-proprietary-blobs-from-file-based-otas).
+## 从区块形式的OTA包中提取专有二进制blob文件
 
-You may also have a payload-based OTA, which is what your device will use if it uses the A/B partitioning system. If that is what you have, jump to [Extracting proprietary blobs from payload-based OTAs](#extracting-proprietary-blobs-from-payload-based-otas).
+一些区块形式的OTA包被拆分为多个文件，用于系统分区和其他分区，如vendor, product, oem, odm等。您可以通过在可安装exTHmUI zip包的根目录中为每个文件查找相应的`*.transfer.list`文件来确认您的文件是否已拆分。
 
-## Extracting proprietary blobs from block-based OTAs
-
-Some block-based OTAs are split into multiple files, for the system partition and the other partitions like vendor, product, oem, odm and others.  You can verify if yours is split by looking for the corresponding `*.transfer.list` files for each in the root of the installable LinageOS zip.
-
-If you have a split block-based OTA file then you will need to extract, decompress and convert each one in a similar manner to system and vendor as outlined below.
+如果您有一个拆分了的区块形式的OTA包，那么您将需要以类似如下所示的方式提取、解压缩和转换每个文件到system和vendor。
 
 If you do not have a split OTA file, you may skip any step that references `vendor.transfer.list` and `vendor.new.dat.br` or `vendor.new.dat`
 
@@ -125,7 +123,7 @@ Finally, unmount any other images before deleting the no longer needed files:
 rm -rf ~/android/system_dump/
 ```
 
-## Extracting proprietary blobs from file-based OTAs
+## 从文件形式的OTA包中提取专有二进制blob文件
 
 Create a temporary directory to extract the content of the zip and move there:
 
@@ -154,7 +152,7 @@ Once you've extracted all the proprietary files, you can delete the files that w
 rm -rf ~/android/system_dump/
 ```
 
-## Extracting proprietary blobs from payload-based OTAs
+## 从堆栈形式的OTA包中提取专有二进制blob文件
 
 Create a temporary directory to extract the content of the zip and move there:
 
