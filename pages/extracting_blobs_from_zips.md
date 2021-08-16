@@ -25,28 +25,28 @@ permalink: extracting_blobs_from_zips.html
 
 如果您有一个拆分了的区块形式的OTA包，那么您将需要以类似如下所示的方式提取、解压缩和转换每个文件到system和vendor。
 
-If you do not have a split OTA file, you may skip any step that references `vendor.transfer.list` and `vendor.new.dat.br` or `vendor.new.dat`
+如果您没有拆分了的区块形式的OTA包，则可以跳过引用`vendor.transfer.list`和`vendor.new.dat.br`或`vendor.new.dat`的任何步骤
 
-Create a temporary directory and move there:
+新建一个临时目录然后移动到那里：
 
 ```
 mkdir ~/android/system_dump/
 cd ~/android/system_dump/
 ```
 
-Extract `system.transfer.list` and `system.new.dat.br` or `system.new.dat` from the installable exTHmUI zip:
+从exTHmUI可安装zip包中解压`system.transfer.list`和`system.new.dat.br`或`system.new.dat`：
 
 ```
-unzip path/to/lineage-*.zip system.transfer.list system.new.dat*
+unzip path/to/exthm-*.zip system.transfer.list system.new.dat*
 ```
-where `path/to/` is the path to the installable zip.
+`path/to/`是可安装zip包的路径
 
-If your OTA includes `vendor.transfer.list` and `vendor.new.dat.br` or `vendor.new.dat` (other others), extract them from the installable exTHmUI zip as well:
+如果你的OTA包包含`vendor.transfer.list`和`vendor.new.dat.br`或`vendor.new.dat`（或者其他什么东西），也请从exTHmUI可安装zip包中将他们解压出来：
 
 ```
-unzip path/to/lineage-*.zip vendor.transfer.list vendor.new.dat*
+unzip path/to/exthm-*.zip vendor.transfer.list vendor.new.dat*
 ```
-where `path/to/` is the path to the installable zip.
+`path/to/`是可安装zip包的路径
 
 In the case of `system.new.dat.br`/`vendor.new.dat.br`/etc. (a [brotli](https://en.wikipedia.org/wiki/Brotli) archive) exists, you will first need to decompress them using the `brotli` utility:
 
@@ -135,7 +135,7 @@ cd ~/android/system_dump/
 Extract the `system` folder from the zip:
 
 ```
-unzip path/to/lineage-*.zip system/*
+unzip path/to/exthm-*.zip system/*
 ```
 where `path/to/` is the path to the installable zip.
 
@@ -164,7 +164,7 @@ cd ~/android/system_dump/
 Extract the `payload.bin` file from the exTHmUI installation zip file:
 
 ```
-unzip /path/to/lineage-*.zip payload.bin
+unzip /path/to/exthm-*.zip payload.bin
 ```
 where `/path/to/` is the path to the installable zip.
 
