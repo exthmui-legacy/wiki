@@ -48,14 +48,14 @@ unzip path/to/exthm-*.zip vendor.transfer.list vendor.new.dat*
 ```
 `path/to/`是可安装zip包的路径
 
-In the case of `system.new.dat.br`/`vendor.new.dat.br`/etc. (a [brotli](https://en.wikipedia.org/wiki/Brotli) archive) exists, you will first need to decompress them using the `brotli` utility:
+对于存在`system.new.dat.br`/`vendor.new.dat.br`/等(一个[Brotli](https://zh.wikipedia.org/wiki/Brotli)文件)的情况，你应该先使用`brotli`实用程序对它们进行解压缩
 
 ```
 sudo apt-get install brotli
 brotli --decompress --output=system.new.dat system.new.dat.br
 ```
 
-And if you have a `vendor.dat.new.br` (or others) file:
+如果你有`vendor.dat.new.br`（或者其他的）文件：
 
 ```
 brotli --decompress --output=vendor.new.dat vendor.new.dat.br
