@@ -168,28 +168,28 @@ unzip /path/to/exthm-*.zip payload.bin
 
 `path/to/`是可安装zip包的路径。
 
-You will now need to use a tool called `update-payload-extractor`.
+现在，您需要使用一个叫`update-payload-extractor`的工具。
 
-To use the tool, you will need python-protobuf, if you do not already have it:
+要使用该工具，您需要使用`python-protobuf`，如果您还没有：
 
 ```
 sudo apt-get install python-protobuf
 ```
 
-You can now extract the `.img` files from the payload:
+现在可以从堆栈中提取`.img`文件： 
 
-* If you have a exTHmUI build tree checked out already, you can just run the script to extract the payload:
+* 如果您已经检出了以前的eTHmUI构建树，则只需运行脚本以提取堆栈：
   ```
   python /path/to/lineage-tree/lineage/scripts/update-payload-extractor/extract.py payload.bin --output_dir ./
   ```
 
-* If you don't have a exTHmUI build tree checked out, you can clone our scripts repo, and then run the script to extract the payload:
+* 如果您没有已经检出了以前的eTHmUI构建树，则需要克隆Lineage的脚本仓库然后用脚本解压堆栈文件：
   ```
   git clone https://github.com/LineageOS/scripts
   python /path/to/scripts/update-payload-extractor/extract.py payload.bin --output_dir ./
   ```
 
-It will take a few moments. Once it's done, we will need to mount the `system.img` file, and the `vendor.img` and `product.img` files if they exist, to obtain the complete set of proprietary blobs:
+这可能需要一些时间。完成后，我们将需要挂载`system.img`文件以及`vendor.img`和`product.img`文件（如果存在），以获取完整的专有Blob集合：
 
 ```
 mkdir system/
@@ -198,15 +198,15 @@ sudo mount vendor.img system/vendor/
 sudo mount product.img system/product/
 ```
 
-Move to the root directory of the sources of your device and run `extract-files.sh` as follows:
+移动到设备源码的根目录并运行`extract-files.sh`，如下所示：
 
 ```
 ./extract-files.sh ~/android/system_dump/
 ```
 
-This will tell `extract-files.sh` to extract the proprietary blobs from the mounted system dump rather than a connected device.
+这将告诉`extract-files.sh`从挂载的系统转储（而不是连接的设备）中提取专有Blob。
 
-Once it is done, unmount the system dump and remove the now unnecessary files:
+完成后，卸载系统转储并删除现在不必要的文件：
 
 ```
 sudo umount -R ~/android/system_dump/system/
