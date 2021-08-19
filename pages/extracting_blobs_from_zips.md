@@ -27,7 +27,7 @@ permalink: extracting_blobs_from_zips.html
 
 如果您没有拆分了的区块形式的OTA包，则可以跳过引用`vendor.transfer.list`和`vendor.new.dat.br`或`vendor.new.dat`的任何步骤
 
-新建一个临时目录然后移动到那里：
+新建一个临时目录然后将工作目录移动到那里：
 
 ```
 mkdir ~/android/system_dump/
@@ -61,32 +61,32 @@ brotli --decompress --output=system.new.dat system.new.dat.br
 brotli --decompress --output=vendor.new.dat vendor.new.dat.br
 ```
 
-You now need to get a copy of `sdat2img`. This script can convert the content of block-based OTAs into dumps that can be mounted. `sdat2img` is available at the following git repository that you can clone with:
+现在您需要获取`sdat2img`。此脚本可以将区块形式的OTA包内容转换为可以装载的转储镜像。 `sdat2img` 可在如下的git仓库找到，你可以通过如下指令clone这个仓库：
 
 ```
 git clone https://github.com/xpirt/sdat2img
 ```
 
-Once you have obtained `sdat2img`, use it to extract the system image:
+获得`sdat2img`之后，使用它提取系统映像:
 
 ```
 python sdat2img/sdat2img.py system.transfer.list system.new.dat system.img
 ```
 
-And if you have a `vendor.dat.new` (or others) file:
+并且如果你有`vendor.dat.new.br`（或者其他的）文件：
 
 ```
 python sdat2img/sdat2img.py vendor.transfer.list vendor.new.dat vendor.img
 ```
 
-You should now have a file named `system.img` that you can mount as follows:
+现在应该有一个名为`system.img`的文件，可以按如下方式挂载：
 
 ```
 mkdir system/
 sudo mount system.img system/
 ```
 
-If you also have a file named `vendor.img`, you can mount it as follows:
+如果你有一个叫`vendor.img`的文件，你可以用如下方法挂载：
 
 ```
 sudo rm system/vendor
@@ -94,30 +94,30 @@ sudo mkdir system/vendor
 sudo mount vendor.img system/vendor/
 ```
 
-You must also now mount any other image files that you have in their respective directories.
+现在，您还必须挂载其各自目录中的任何其他镜像文件。
 
-After you have mounted the image(s), move to the root directory of the sources of your device and run `extract-files.sh` as follows:
+装入镜像后，移动到设备源的根目录并运行`extract-files.sh`，如下所示：
 
 ```
 ./extract-files.sh ~/android/system_dump/
 ```
 
-This will tell `extract-files.sh` to get the files from the mounted system dump rather than from a connected device.
+这将告诉`extract-files.sh`从已挂载的系统转储而不是从连接的设备获取文件。
 
-Once you've extracted all the proprietary files, unmount the vendor dump if you mounted it earlier:
+提取所有专有文件后，请卸载vendor转储（如果之前已挂载）：
 
 ```
 sudo umount ~/android/system_dump/system/vendor
 ```
 
-Then unmount the system dump:
+然后卸载系统转储：
 
 ```
 sudo umount ~/android/system_dump/system
 
 ```
 
-Finally, unmount any other images before deleting the no longer needed files:
+最后，在删除不再需要的文件之前卸载任何其他镜像：
 
 ```
 rm -rf ~/android/system_dump/
@@ -125,28 +125,27 @@ rm -rf ~/android/system_dump/
 
 ## 从文件形式的OTA包中提取专有二进制blob文件
 
-Create a temporary directory to extract the content of the zip and move there:
+新建一个临时目录然后将工作目录移动到那里：
 
 ```
 mkdir ~/android/system_dump/
 cd ~/android/system_dump/
 ```
 
-Extract the `system` folder from the zip:
-
+从zip包中解压`system`文件夹：
 ```
 unzip path/to/exthm-*.zip system/*
 ```
-where `path/to/` is the path to the installable zip.
+`path/to/`是可安装zip包的路径
 
-After you have extracted the `system` folder, move to the root directory of the sources of your device and run `extract-files.sh` as follows:
+在你解压`system`文件夹之后，将这个文件夹移动到你的设备的源码的根目录，然后运行`extract-files.sh`，如下所示：
 
 ```
 ./extract-files.sh ~/android/system_dump/
 ```
-This will tell `extract-files.sh` to get the files from the extracted system dump rather than from a connected device.
+这将告诉`extract-files.sh`从已解压的系统转储而不是从连接的设备获取文件。.
 
-Once you've extracted all the proprietary files, you can delete the files that were extracted from the zip:
+提取所有专有文件后，可以删除从zip中提取的文件：
 
 ```
 rm -rf ~/android/system_dump/
@@ -154,19 +153,20 @@ rm -rf ~/android/system_dump/
 
 ## 从堆栈形式的OTA包中提取专有二进制blob文件
 
-Create a temporary directory to extract the content of the zip and move there:
+新建一个临时目录然后将工作目录移动到那里：
 
 ```
 mkdir ~/android/system_dump/
 cd ~/android/system_dump/
 ```
 
-Extract the `payload.bin` file from the exTHmUI installation zip file:
+从exTHmUI可安装zip文件中提取`payload.bin`文件： 
 
 ```
 unzip /path/to/exthm-*.zip payload.bin
 ```
-where `/path/to/` is the path to the installable zip.
+
+`path/to/`是可安装zip包的路径。
 
 You will now need to use a tool called `update-payload-extractor`.
 
