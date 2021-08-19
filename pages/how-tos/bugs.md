@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: How to submit a bug report
+title: 如何提交错误报告
 folder: how-tos
 redirect_from: bugreport-howto.html
 permalink: /how-to/bugreport
@@ -8,29 +8,31 @@ tags:
  - how-to
 ---
 
-## What not to report
-  - Bugs in unofficial builds or anything not downloaded from [our official portal](https://download.exthmui.cn/exthmui/)
-  - Missing builds
-  - Asking for installation help
-  - Asking for device support
-  - Feature requests
+## 以下条件不要提交错误报告
+  - 非官方维护版本的exTHmUI 即 [exTHmUI 官方设备](https://download.exthmui.cn/exthmui/) 之外的设备
+  - 官方维护列表中无您的设备
+  - 寻求安装 exTHmUI 的教程
+  - 请求官方设备维护支持
+  - 系统特殊功能/特性请求
+  - 您修改过系统文件或者更换了内核等
+  - 您安装了稀奇古怪的模块或者其他修改
 
-## Reporting a bug
+## 报告错误
 
-We use [Gitlab Issues](https://gitlab.com/LineageOS/issues) as our bug tracker. Before you submit a bug, please search to verify that someone else hasn't reported it already. If they have, avoid commenting with "+1" or "Me too!", as this just creates more work for us.
+我们使用此 [模板](https://github.com/exthmui/exthm_issues) 来收集问题. 在提交问题之前请先确认其他人是否也报告了此问题, 如果存在, 请避免评论 "我也是!" "什么时候解决?"
 
-We accept bugs on the following:
+我们接受以下错误:
 
-  - [Android](https://gitlab.com/LineageOS/issues/android)
-    - These are bugs in exTHmUI.
-    - Examples:
-      - The fingerprint sensor on your device doesn't work.
-      - Your phone crashes when you try to enable encryption.
-      - WiFi calling doesn't work.
+  - [Android](https://github.com/exthmui/exthm_issues)
+    - 这些是 exTHmUI 的错误.
+    - 例子:
+      - 您设备上的指纹传感器无法使用.
+      - 当您使用某些系统功能时, 出现崩溃或者未响应.
+      - 无法使用 WiFi 通话.
 
-    {% include alerts/important.html content="Please do not post multiple issues within the same report, as bugs can be either affecting different maintainers or some may be device specific where others are not" %}
+    {% include alerts/important.html content="请不要在同一个问题报告中发布多个问题, 因为错误可能会和多方面因素有关, 比如某些设备上特定的问题, 而有些则不是" %}
 
-    {% include alerts/important.html content="[Logcats](logcat.html) *must* be attached for all android bugs, and *must* be captured right after reproducing the issue." %}
+    {% include alerts/important.html content="*必须*为您提交的问题报告附加 [Logcat](logcat.html) 并且*必须*在出现问题后立即捕获" %}
 
   - [Infrastructure](https://gitlab.com/LineageOS/issues/infra)
     - These are bugs in our website and/or software.
@@ -42,4 +44,4 @@ We accept bugs on the following:
 
     {% include alerts/important.html content="If the issue affects your device, this is the **wrong** place to report your issue!" %}
 
-Please be sure to fill out the template with accurate information, and in the format requested. It doesn't matter if your baseband version has nothing to do with a lock screen animation issue, if it is not there your bug will be removed.
+请务必按照要求的格式来填写包含准确信息的模板, 如果不存在准确信息的问题, 我们将关闭此问题申请
