@@ -67,8 +67,8 @@ fi
    schedtool squashfs-tools xsltproc {% if cpu_architecture contains 'x86' %}yasm {% endif %}
    zip zlib1g-dev`
 
-{% if device.versions contains 13.0 %}
-要编译 exTHmUI 13.0, 还需要:
+{% if device.versions contains 6.0.1 %}
+要编译 exTHmUI 6.0.1, 还需要:
 
 * `maven`
 {% endif %}
@@ -96,7 +96,7 @@ fi
 
 ```
 mkdir -p ~/bin
-mkdir -p ~/android/lineage
+mkdir -p ~/exTHmUI
 ```
 
 `~/bin` 目录将包含 git-repo（通常称为 "repo"），`~/android/lineage` 目录将包含 exTHmUI 的源代码。
@@ -161,15 +161,7 @@ ccache -o compression=true
 
 {% include alerts/note.html content="如果启用了压缩功能，`ccache` 的大小可以更小。" %}
 
-
 {% if device.current_branch >= 14 and device.current_branch < 16 %}
-### 配置 Jack
 
-[Jack](http://source.android.com/source/jack.html) 是用于编译 exTHmUI 14.1 和 15.1 的 Java 工具链。 众所周知，如果配置不正确，它的内存会经常耗尽。- 一个简单的解决方法是运行这个命令:
-
-```
-export ANDROID_JACK_VM_ARGS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4G"
-```
-
-把这个命令加入到 `~/.bashrc` 将自动配置 Jack 以分配足够的内存数量。
 {% endif %}
+

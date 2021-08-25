@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: 给 akari 编译 exTHmUI
+title: 编译 exTHmUI 给 akari
 folder: build
 permalink: /devices/akari/build
 device: akari
